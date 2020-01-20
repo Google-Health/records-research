@@ -380,9 +380,9 @@ def create_matrix_vdpl(features, mask, use_prior, use_inf_mask, max_num_codes,
     guide: The guide matrix.
     prior_guide: The conditional probablity matrix.
   """
-  dx_ids = features['dx_ids']
-  proc_ids = features['proc_ids']
-  lab_ids = features['lab_ids']
+  dx_ids = features['dx_ints']
+  proc_ids = features['proc_ints']
+  lab_ids = features['lab_ints']
 
   batch_size = dx_ids.dense_shape[0]
   num_dx_ids = max_num_codes if use_prior else dx_ids.dense_shape[-1]
@@ -485,8 +485,8 @@ def create_matrix_vdp(features, mask, use_prior, use_inf_mask, max_num_codes,
     guide: The guide matrix.
     prior_guide: The conditional probablity matrix.
   """
-  dx_ids = features['dx_ids']
-  proc_ids = features['proc_ids']
+  dx_ids = features['dx_ints']
+  proc_ids = features['proc_ints']
 
   batch_size = dx_ids.dense_shape[0]
   num_dx_ids = max_num_codes if use_prior else dx_ids.dense_shape[-1]
@@ -567,10 +567,10 @@ class EHRTransformer(object):
 
   def __init__(self,
                gct_params,
-               feature_keys,
-               vocab_sizes,
-               feature_set='vdpl',
-               max_num_codes=0,
+               feature_keys=['dx_ints', 'proc_ints'],
+               vocab_sizes={'dx_ints':3249, 'proc_ints':2210},
+               feature_set='vdp',
+               max_num_codes=50,
                prior_scalar=1.0,
                reg_coef=0.1,
                num_classes=1):
@@ -579,10 +579,10 @@ class EHRTransformer(object):
     Args:
       gct_params: A dictionary parameteres to be used inside GCT class. See GCT
         comments for more information.
-      feature_keys: A list of feature names you want to use. (e.g. ['dx_ids,
-        'proc_ids', 'lab_ids'])
+      feature_keys: A list of feature names you want to use. (e.g. ['dx_ints,
+        'proc_ints', 'lab_ints'])
       vocab_sizes: A dictionary of vocabularize sizes for each feature. (e.g.
-        {'dx_ids': 1001, 'proc_ids': 1001, 'lab_ids': 1001})
+        {'dx_ints': 1001, 'proc_ints': 1001, 'lab_ints': 1001})
       feature_set: Use 'vdpl' to indicate your features are diagnosis codes,
         treatment codes, and lab codes. Use 'vdp' to indicate your features are
         diagnosis codes and treatment codes.
