@@ -1,6 +1,14 @@
 # Graph Convolutional Transformer
 
-This repository contains an implementation of Graph Convolutional Transformer, as described in “Graph Convolutional Transfomer: Learning the Graphical Structure of Electronic Health Records” (Choi et al. 2019). Code was written using Python 2.7 and Tensorflow 1.12.
+This repository contains an implementation of Graph Convolutional Transformer, as described in “Learning the Graphical Structure of Electronic Health Records with Graph Convolutional Transfomer” (Choi et al. 2020). Code was written using Python 2.7 and Tensorflow 1.12.
+
+#### Relevant Publication
+
+Graph Convolutional Transformer implements an algorithm introduced in the following [paper](https://arxiv.org/pdf/1906.04716.pdf):
+
+	Learning the Graphical Structure of Electronic Health Records with Graph Convolutional Transformer
+	Edward Choi, Zhen Xu, Yujia Li, Michael W. Dusenberry, Gerardo Flores, Yuan Xue, Andrew M. Dai  
+	AAAI 2020
 
 The code sample provided here is not executable. We illustrate the core implementation of our model architecture, focusing on embedding the input features, transforming them with the model, and deriving the logits for binary prediction. The input data format is TensorFlow SequenceExample. We provide a Python script that generates trainable SequenceExamples from Philips eICU Collaborative Dataset. The current implementation only supports graph-level binary prediction (e.g. mortality prediction or readmission prediction based on a single visit).
 
