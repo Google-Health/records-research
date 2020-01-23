@@ -241,12 +241,16 @@ def build_seqex(enc_dict,
                                                                ':' +
                                                                enc.encounter_id)
     if enc.expired:
-      seqex.context.feature['label.expired'].bytes_list.value.append('expired')
+      seqex.context.feature['label.expired'].int64_list.value.append(1)
       num_expired += 1
+    else:
+      seqex.context.feature['label.expired'].int64_list.value.append(0)
+
     if enc.readmission:
-      seqex.context.feature['label.readmission'].bytes_list.value.append(
-          'readmission')
+      seqex.context.feature['label.readmission'].int64_list.value.append(1)
       num_readmission += 1
+    else:
+      seqex.context.feature['label.readmission'].int64_list.value.append(0)
 
     dx_ids = seqex.feature_lists.feature_list['dx_ids']
     dx_ids.feature.add().bytes_list.value.extend(list(set(enc.dx_ids)))
@@ -422,7 +426,7 @@ Set <output_path> to where you want the output files to be.
 def main(argv):
   input_path = argv[1]
   output_path = argv[2]
-  num_fold = 5
+  num_fold = 2
 
   patient_file = input_path + '/patient.csv'
   admission_dx_file = input_path + '/admissionDx.csv'
