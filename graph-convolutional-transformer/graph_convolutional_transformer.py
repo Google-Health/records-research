@@ -557,6 +557,49 @@ def create_matrix_vdp(features, mask, use_prior, use_inf_mask, max_num_codes,
   return guide, prior_guide
 
 
+class SequenceExampleParser(object):
+  """A very simple SequenceExample parser for eICU data.
+
+  This Parser class is intended to be used for eICU SequenceExamples obtained
+  from process_eicu.py. This class will not work with synthetic samples obtained
+  from process_synthetic.py, because synthetic samples contain a different set
+  of features and labels than eICU samples.
+  """
+
+  def __init__(self):
+    """Init function."""
+    self.context_features_config = {
+        'patientId': tf.VarLenFeature(tf.string),
+        'label.readmission': tf.FixedLenFeature([1], tf.int64),
+        'label.expired': tf.FixedLenFeature([1], tf.int64)
+    }
+
+    self.sequence_features_config = {
+        'dx_ints': tf.VarLenFeature(tf.int64),
+        'proc_ints': tf.VarLenFeature(tf.int64),
+        'prior_indices': tf.VarLenFeature(tf.int64),
+        'prior_values': tf.VarLenFeature(tf.float32)
+    }
+
+  def parse(self, serialized_examples):
+    """Parse function.
+
+    Args:
+      serialized_examples: A list of serialized SequenceExamples. You can
+        serialize SequenceExamples by calling
+        SequenceExample.SerializeToString().
+
+    Returns:
+      batch_context: A dictionary of context features.
+      batch_sequence: A dictionary of sequence features.
+    """
+    (batch_context, batch_sequence, _) = tf.io.parse_sequence_example(
+        serialized_examples,
+        context_features=self.context_features_config,
+        sequence_features=self.sequence_features_config)
+  return (batch_context, batch_sequence)
+
+
 class EHRTransformer(object):
   """Transformer-based EHR encounter modeling algorithm.
 
@@ -616,8 +659,10 @@ class EHRTransformer(object):
     """Accepts features and produces logits and attention values.
 
     Args:
-      features: A dictionary of SparseTensors for each feature. The values of
-        the SparseTensors must be integers (lookup IDs) of each feature.
+      features: A dictionary of SparseTensors for each sequence feature. Feed
+        the second dictionary returned from SequenceExampleParser.parse().
+      training: A boolean value to indicate whether the predictions are for
+        training or inference. If set to True, dropouts will take effect.
 
     Returns:
       logits: Logits for prediction.
@@ -657,6 +702,19 @@ class EHRTransformer(object):
     logits = tf.layers.dense(pre_logit, self._num_classes, activation=None)
 
     return logits, attentions
+
+  def get_labels(self, features, label_key):
+    """Accepts features and extracts true labels.
+
+    Args:
+      features: A dictionary of SparseTensors for each context feature. Feed the
+        first dictionary returned from SequenceExampleParser.parse().
+      label_key: The name of the label (e.g. "label.readmission").
+
+    Returns:
+      labels: A Tensor of binary labels.
+    """
+    return tf.squeeze(features[label_key])
 
   def get_loss(self, logits, labels, attentions):
     """Creates a loss tensor.
