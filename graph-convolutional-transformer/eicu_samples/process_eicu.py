@@ -426,7 +426,7 @@ Set <output_path> to where you want the output files to be.
 def main(argv):
   input_path = argv[1]
   output_path = argv[2]
-  num_fold = 2
+  num_fold = 5
 
   patient_file = input_path + '/patient.csv'
   admission_dx_file = input_path + '/admissionDx.csv'
