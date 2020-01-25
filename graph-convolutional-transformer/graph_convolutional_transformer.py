@@ -683,12 +683,12 @@ class EHRTransformer(object):
     if self._feature_set == 'vdpl':
       guide, prior_guide = create_matrix_vdpl(features, masks, self._use_prior,
                                               self._use_inf_mask,
-                                              self._max_num_code,
+                                              self._max_num_codes,
                                               self._prior_scalar)
     elif self._feature_set == 'vdp':
       guide, prior_guide = create_matrix_vdp(features, masks, self._use_prior,
                                              self._use_inf_mask,
-                                             self._max_num_code,
+                                             self._max_num_codes,
                                              self._prior_scalar)
     else:
       sys.exit(0)
