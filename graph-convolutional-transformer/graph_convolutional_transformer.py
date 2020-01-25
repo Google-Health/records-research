@@ -597,7 +597,8 @@ class SequenceExampleParser(object):
         serialized_examples,
         context_features=self.context_features_config,
         sequence_features=self.sequence_features_config)
-  return (batch_context, batch_sequence)
+
+    return (batch_context, batch_sequence)
 
 
 class EHRTransformer(object):
