@@ -382,7 +382,7 @@ def create_matrix_vdpl(features, mask, use_prior, use_inf_mask, max_num_codes,
   """
   dx_ids = features['dx_ints']
   proc_ids = features['proc_ints']
-  lab_ids = features['lab_ints']
+  lab_ids = features['loinc_bucketized_ints']
 
   batch_size = dx_ids.dense_shape[0]
   num_dx_ids = max_num_codes if use_prior else dx_ids.dense_shape[-1]
@@ -566,7 +566,7 @@ class SequenceExampleParser(object):
   of features and labels than eICU samples.
   """
 
-  def __init__(self):
+  def __init__(self, batch_size, num_map_threads=4):
     """Init function."""
     self.context_features_config = {
         'patientId': tf.VarLenFeature(tf.string),
@@ -581,24 +581,38 @@ class SequenceExampleParser(object):
         'prior_values': tf.VarLenFeature(tf.float32)
     }
 
-  def parse(self, serialized_examples):
+    self.batch_size = batch_size
+    self.num_map_threads = num_map_threads
+
+  def __call__(self, tfrecord_path, label_key, training):
     """Parse function.
 
     Args:
-      serialized_examples: A list of serialized SequenceExamples. You can
-        serialize SequenceExamples by calling
-        SequenceExample.SerializeToString().
+      tfrecord_path: Path to TFRecord of SequenceExamples.
+      training: Boolean value to indicate whether the model if training.
 
     Returns:
-      batch_context: A dictionary of context features.
-      batch_sequence: A dictionary of sequence features.
+      Dataset iterator.
     """
-    (batch_context, batch_sequence, _) = tf.io.parse_sequence_example(
-        serialized_examples,
-        context_features=self.context_features_config,
-        sequence_features=self.sequence_features_config)
 
-    return (batch_context, batch_sequence)
+    def parser_fn(serialized_example):
+      (batch_context, batch_sequence) = tf.io.parse_single_sequence_example(
+          serialized_example,
+          context_features=self.context_features_config,
+          sequence_features=self.sequence_features_config)
+      labels = tf.squeeze(tf.cast(batch_context[label_key], tf.float32))
+      return batch_sequence, labels
+
+    num_epochs = None if training else 1
+    buffer_size = self.batch_size * 32
+    dataset = tf.data.TFRecordDataset(tfrecord_path)
+    dataset = dataset.shuffle(buffer_size)
+    dataset = dataset.repeat(num_epochs)
+    dataset = dataset.map(parser_fn, num_parallel_calls=self.num_map_threads)
+    dataset = dataset.batch(self.batch_size)
+    dataset = dataset.prefetch(1)
+
+    return dataset.make_one_shot_iterator().get_next()
 
 
 class EHRTransformer(object):
@@ -612,12 +626,15 @@ class EHRTransformer(object):
   def __init__(self,
                gct_params,
                feature_keys=['dx_ints', 'proc_ints'],
+               label_key='label.readmission',
                vocab_sizes={'dx_ints':3249, 'proc_ints':2210},
                feature_set='vdp',
                max_num_codes=50,
                prior_scalar=1.0,
                reg_coef=0.1,
-               num_classes=1):
+               num_classes=1,
+               learning_rate=1e-3,
+               batch_size=32):
     """Init function.
 
     Args:
@@ -640,28 +657,33 @@ class EHRTransformer(object):
         training GCT.
       num_classes: This is set to 1, because this implementation only supports
         graph-level binary classification.
+      learning_rate: Learning rate for Adam optimizer.
+      batch_size: Batch size.
     """
-    self._model = GraphConvolutionalTransformer(**gct_params)
-    self._feature_embedder = FeatureEmbedder(vocab_sizes, feature_keys,
-                                             gct_params['embedding_size'])
     self._feature_keys = feature_keys
+    self._label_key = label_key
+    self._vocab_sizes = vocab_sizes
     self._feature_set = feature_set
     self._max_num_codes = max_num_codes
     self._prior_scalar = prior_scalar
     self._reg_coef = reg_coef
     self._num_classes = num_classes
+    self._learning_rate = learning_rate
+    self._batch_size = batch_size
 
+    self._gct_params = gct_params
     self._embedding_size = gct_params['embedding_size']
     self._num_transformer_stack = gct_params['num_transformer_stack']
     self._use_inf_mask = gct_params['use_inf_mask']
     self._use_prior = gct_params['use_prior']
 
-  def get_prediction(self, features, training=False):
+    self._seqex_reader = SequenceExampleParser(self._batch_size)
+
+  def get_prediction(self, model, feature_embedder, features, training=False):
     """Accepts features and produces logits and attention values.
 
     Args:
-      features: A dictionary of SparseTensors for each sequence feature. Feed
-        the second dictionary returned from SequenceExampleParser.parse().
+      features: A dictionary of SparseTensors for each sequence feature.
       training: A boolean value to indicate whether the predictions are for
         training or inference. If set to True, dropouts will take effect.
 
@@ -671,7 +693,7 @@ class EHRTransformer(object):
         get_loss to regularize the attention generation mechanism.
     """
     # 1. Embedding lookup
-    embedding_dict, mask_dict = self._feature_embedder.lookup(
+    embedding_dict, mask_dict = feature_embedder.lookup(
         features, self._max_num_codes)
 
     # 2. Concatenate embeddings and masks into a single tensor.
@@ -694,28 +716,16 @@ class EHRTransformer(object):
       sys.exit(0)
 
     # 3. Process embeddings with GCT
-    hidden, attentions = self._model(
+    hidden, attentions = model(
         embeddings, masks[:, :, None], guide, prior_guide, training)
 
     # 4. Generate logits
     pre_logit = hidden[:, 0, :]
     pre_logit = tf.reshape(pre_logit, [-1, self._embedding_size])
     logits = tf.layers.dense(pre_logit, self._num_classes, activation=None)
+    logits = tf.squeeze(logits)
 
     return logits, attentions
-
-  def get_labels(self, features, label_key):
-    """Accepts features and extracts true labels.
-
-    Args:
-      features: A dictionary of SparseTensors for each context feature. Feed the
-        first dictionary returned from SequenceExampleParser.parse().
-      label_key: The name of the label (e.g. "label.readmission").
-
-    Returns:
-      labels: A Tensor of binary labels.
-    """
-    return tf.squeeze(features[label_key])
 
   def get_loss(self, logits, labels, attentions):
     """Creates a loss tensor.
@@ -748,3 +758,75 @@ class EHRTransformer(object):
       loss += self._reg_coef * reg_term
 
     return loss
+
+  def input_fn(self, tfrecord_path, training):
+    """Input function to be used by TensorFlow Estimator.
+
+    Args:
+      tfrecord_path: Path to TFRecord of SequenceExamples.
+      training: Boolean value to indicate whether the model if training.
+
+    Return:
+      Input generator.
+    """
+    return self._seqex_reader(tfrecord_path, self._label_key, training)
+
+  def model_fn(self, features, labels, mode):
+    """Model function to be used by TensorFlow Estimator.
+
+    Args:
+      features: Dictionary of features.
+      labels: True labels for training.
+      mode: The mode the model is in tf.estimator.ModeKeys.
+
+    Return:
+      Train/Eval/Prediction op depending on the mode.
+    """
+    training = mode == tf.estimator.ModeKeys.TRAIN
+
+    model = GraphConvolutionalTransformer(**self._gct_params)
+    feature_embedder = FeatureEmbedder(
+        self._vocab_sizes, self._feature_keys, self._embedding_size)
+
+    logits, attentions = self.get_prediction(
+        model, feature_embedder, features, training)
+    probs = tf.nn.sigmoid(logits)
+    predictions = {
+        'probabilities': probs,
+        'logits': logits,
+    }
+
+    # output predictions
+    if mode == tf.estimator.ModeKeys.PREDICT:
+      return tf.estimator.EstimatorSpec(mode, predictions=predictions)
+
+    # create loss (should be equal to caffe softmaxwithloss)
+    loss = self.get_loss(logits, labels, attentions)
+
+    if training:
+      optimizer = tf.train.AdamOptimizer(learning_rate=self._learning_rate,
+                                         beta1=0.9, beta2=0.999, epsilon=1e-8)
+      train_op = optimizer.minimize(loss)
+      global_step = tf.train.get_global_step()
+      update_global_step = tf.assign(
+          global_step, global_step+1, name='update_global_step')
+
+      # create estimator training spec.
+      return tf.estimator.EstimatorSpec(
+          mode,
+          loss=loss,
+          train_op=tf.group(train_op, update_global_step),
+          predictions=predictions)
+
+    if mode == tf.estimator.ModeKeys.EVAL:
+      # Define the metrics:
+      metrics_dict = {
+          'AUC-PR': tf.metrics.auc(labels, probs, curve='PR',
+                                   summation_method='careful_interpolation'),
+          'AUC-ROC': tf.metrics.auc(labels, probs, curve='ROC',
+                                 summation_method='careful_interpolation')
+      }
+
+      #return eval spec
+      return tf.estimator.EstimatorSpec(
+          mode, loss=loss, eval_metric_ops=metrics_dict)
