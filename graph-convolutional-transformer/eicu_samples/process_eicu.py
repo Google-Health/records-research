@@ -466,10 +466,17 @@ def main(argv):
     test_seqex = add_sparse_prior_guide_dp(
         seqex_list, stats_path, set(key_test), max_num_codes=50)
 
-    pickle.dump(train_seqex, open(fold_path + '/train.seqex', 'wb'), -1)
-    pickle.dump(validation_seqex, open(fold_path + '/validation.seqex', 'wb'),
-                -1)
-    pickle.dump(test_seqex, open(fold_path + '/test.seqex', 'wb'), -1)
+    with tf.io.TFRecordWriter(fold_path + '/train.tfrecord') as writer:
+      for seqex in train_seqex:
+        writer.write(seqex.SerializeToString())
+
+    with tf.io.TFRecordWriter(fold_path + '/validation.tfrecord') as writer:
+      for seqex in validation_seqex:
+        writer.write(seqex.SerializeToString())
+
+    with tf.io.TFRecordWriter(fold_path + '/test.tfrecord') as writer:
+      for seqex in test_seqex:
+        writer.write(seqex.SerializeToString())
 
 
 if __name__ == '__main__':

@@ -1,6 +1,16 @@
-"""Generate simulated dataset.
+"""Copyright 2019 Google LLC.
 
-This script generates simulated dataset.
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+    https://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
 """
 
 from __future__ import absolute_import
@@ -470,11 +480,13 @@ def sample_simulated(argv):
   return visit_list
 
 
-"""Set <output_path> to where you want the output files to be.
+"""
+Set <input_path> to where the visit_list.p file is located.
+Set <output_path> to where you want the TFRecords to be stored.
 """
 def seqex_main(argv):
-  input_path = './visit_list.p'
-  output_path = argv[1]
+  input_path = argv[1]
+  output_path = argv[2]
   num_fold = 5
   data_size = 50000
 
@@ -499,12 +511,21 @@ def seqex_main(argv):
     pickle.dump(key_test, open(fold_path + '/test_key_list.p', 'wb'), -1)
 
     count_conditional_prob_dpl(key_list, seqex_list, stats_path, set(key_train))
-    seqex_train = add_sparse_prior_guide_dpl(key_list, seqex_list, stats_path, set(key_train), max_num_codes=50)
-    seqex_validation = add_sparse_prior_guide_dpl(key_list, seqex_list, stats_path, set(key_valid), max_num_codes=50)
-    seqex_test = add_sparse_prior_guide_dpl(key_list, seqex_list, stats_path, set(key_test), max_num_codes=50)
-    pickle.dump(seqex_train, open(fold_path + '/train_seqex_list.p', 'wb'), -1)
-    pickle.dump(seqex_validation, open(fold_path + '/validation_seqex_list.p', 'wb'), -1)
-    pickle.dump(seqex_test, open(fold_path + '/test_seqex_list.p', 'wb'), -1)
+    train_seqex = add_sparse_prior_guide_dpl(key_list, seqex_list, stats_path, set(key_train), max_num_codes=50)
+    validation_seqex = add_sparse_prior_guide_dpl(key_list, seqex_list, stats_path, set(key_valid), max_num_codes=50)
+    test_seqex = add_sparse_prior_guide_dpl(key_list, seqex_list, stats_path, set(key_test), max_num_codes=50)
+
+    with tf.io.TFRecordWriter(fold_path + '/train.tfrecord') as writer:
+      for seqex in train_seqex:
+        writer.write(seqex.SerializeToString())
+
+    with tf.io.TFRecordWriter(fold_path + '/validation.tfrecord') as writer:
+      for seqex in validation_seqex:
+        writer.write(seqex.SerializeToString())
+
+    with tf.io.TFRecordWriter(fold_path + '/test.tfrecord') as writer:
+      for seqex in test_seqex:
+        writer.write(seqex.SerializeToString())
 
 
 if __name__ == '__main__':
