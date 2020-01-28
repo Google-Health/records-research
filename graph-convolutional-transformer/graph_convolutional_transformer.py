@@ -16,8 +16,8 @@ limitations under the License.
 from __future__ import division
 from __future__ import print_function
 
-import sys
 import tensorflow as tf
+import sys
 
 
 class FeatureEmbedder(object):
@@ -630,7 +630,7 @@ class EHRTransformer(object):
                vocab_sizes={'dx_ints':3249, 'proc_ints':2210},
                feature_set='vdp',
                max_num_codes=50,
-               prior_scalar=1.0,
+               prior_scalar=0.5,
                reg_coef=0.1,
                num_classes=1,
                learning_rate=1e-3,
