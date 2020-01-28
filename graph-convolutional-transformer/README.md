@@ -23,7 +23,7 @@ This is not an officially supported Google product.
 * Download the patient, admissionDx, diagnosis, treatment CSV files.
 * Generate TFRecords using `eicu_samples/process_eicu.py`.
   * `python process_eicu.py <path to CSV files> <output path>`
-  * By default, this will generate 5 randomly sampled sets of train/validation/test sets.
+  * By default, this will generate 5 randomly sampled sets of train/validation/test data.
 * Train model using `train.py`
   * `python train.py <path to TFRecords> <output path>`.
 
@@ -38,3 +38,5 @@ We implement the following files to run the model:
   * This file preprocesses Philips eICU Collaborative Dataset in order to obtain TFRecords of SequenceExamples that can be used to test the model.
 * `synthetic_samples/process_synthetic.py`
   * This file generates TFRecords of synthetic SequenceExamples. If you are interested in replicating synthetic experiments in the paper, please use this script to generate synthetic samples. However, the source code `graph_convolutional_transformer.py` also needs modifications as it is currently written for binary prediction tasks only.
+  * To use `process_synthetic.py`, first download [visit_list.p](https://github.com/Google-Health/records-research/releases/download/v0.1/visit_list.p) from the binary release, then execute `python process_synthetic.py <path to visit_list.p> <output path>`
+  * By default, this will generate 5 randomly sampled sets of train/validation/test data.
