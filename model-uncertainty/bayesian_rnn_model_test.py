@@ -20,7 +20,7 @@ from tensorflow.python.framework import test_util  # pylint: disable=g-direct-te
 import bayesian_rnn_model
 
 
-# TODO(dusenberrymw): Add tests for the full models.
+# TODO(dusenberrymw): Add open-source tests for the full models.
 class BayesianRNNTest(tf.test.TestCase):
 
   @test_util.run_in_graph_and_eager_modes

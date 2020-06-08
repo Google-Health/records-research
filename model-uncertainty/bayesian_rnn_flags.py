@@ -12,7 +12,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-"""Flags for the Bayesian RNN Eager train/eval/predict script."""
+"""Flags for the Bayesian RNN train/eval/predict script."""
 from absl import flags
 
 # NOTE: The following flags are specific to the Bayesian RNN model.
@@ -60,7 +60,7 @@ flags.DEFINE_integer(
 flags.DEFINE_enum(
     "model",
     default="bayesian_rnn",
-    enum_values=["bayesian_rnn"],
+    enum_values=["bayesian_rnn", "rank1_bayesian_rnn"],
     help="Which model to use.")
 flags.DEFINE_integer(
     "num_rnn_layers", default=1, help="Number of stacked RNN cells.")
@@ -108,17 +108,43 @@ flags.DEFINE_boolean(
     default=False,
     help="Whether or not to use a Bayesian RNN layer.")
 
+# NOTE: The following flags are specific to the rank-1 Bayesian RNN.
+flags.DEFINE_string("embeddings_initializer", "trainable_normal",
+                    "Initializer name for the embedding parameters.")
+flags.DEFINE_string("embeddings_regularizer", "normal_kl_divergence",
+                    "Regularizer name for the embedding parameters.")
+flags.DEFINE_string("alpha_initializer", "trainable_normal",
+                    "Initializer name for the alpha parameters.")
+flags.DEFINE_string("alpha_regularizer", "normal_kl_divergence",
+                    "Regularizer name for the alpha parameters.")
+flags.DEFINE_string("gamma_initializer", "trainable_normal",
+                    "Initializer name for the gamma parameters.")
+flags.DEFINE_string("gamma_regularizer", "normal_kl_divergence",
+                    "Regularizer name for the gamma parameters.")
+flags.DEFINE_boolean("use_additive_perturbation", False,
+                     "Use additive perturbations instead of multiplicative.")
+flags.DEFINE_float("dropout_rate", 1e-3,
+                   "Dropout rate. Only used if alpha/gamma initializers are, "
+                   "e.g., trainable normal.")
+flags.DEFINE_float("prior_mean", 1., "Prior mean.")
+flags.DEFINE_integer("ensemble_size", 4, "Size of ensemble.")
+flags.DEFINE_float("random_sign_init", 0.5,
+                   "Use random sign init for fast weights.")
+flags.DEFINE_float("fast_weight_lr_multiplier", 1.0,
+                   "fast weights lr multiplier.")
+flags.DEFINE_float("l2", 1e-4, "L2 coefficient.")
+
 # NOTE: The following flags are specific to the train/eval/predict loops.
 flags.DEFINE_integer(
     "batch_size", default=64, help="Batch size during training.")
-flags.DEFINE_integer(
-    "buffer_size",
-    default=100,
-    help="Size of the buffer used for data shuffling.")
 flags.DEFINE_float(
     "clip_norm",
     default=7.29199,
     help="Threshold for global norm gradient clipping.")
+flags.DEFINE_integer(
+    "eval_batch_size",
+    default=None,
+    help="Batch size during evaluation. Defaults to `batch_size`.")
 flags.DEFINE_boolean(
     "eval_test_in_loop",
     default=False,
@@ -174,16 +200,24 @@ flags.DEFINE_string(
     "model_dir",
     default="/tmp/medical_uncertainty/bayesian_rnn/models/{timestamp}",
     help="Directory in which to save model checkpoints.")
+flags.DEFINE_enum(
+    "nll",
+    default="average",
+    enum_values=["average", "mixture"],
+    help=("The negative log likelihood formulation to use given a mixture "
+          "distribution over the model parameters, where 'average' corresponds "
+          "to computing the average per-component NLL, and 'mixture' "
+          "corresponds to the negative log marginal likelihood."))
 flags.DEFINE_integer(
     "num_ece_bins", default=15, help="Number of bins for the ECE metric.")
 flags.DEFINE_integer(
-    "num_parallel_calls",
-    default=4,
-    help="Degree of parallelism of dataset map functions.")
-flags.DEFINE_integer(
-    "num_samples",
+    "num_eval_samples",
     default=1,
-    help="Number of model predictions to sample per example.")
+    help="Number of model predictions to sample per example at eval time.")
+flags.DEFINE_integer(
+    "num_train_samples",
+    default=1,
+    help="Number of model predictions to sample per example at train time.")
 flags.DEFINE_string(
     "predict_dir",
     default="/tmp/medical_uncertainty/bayesian_rnn/predictions/{timestamp}",
@@ -194,14 +228,7 @@ flags.DEFINE_string(
     "new custom prediction tasks, or `custom:base_task_name` "
     "such as `custom:mortality` for overriding existing tasks "
     "with custom params.")
-flags.DEFINE_integer(
-    "seed",
-    default=None,
-    help="Random seed. By default, a random value will selected for the seed.")
-flags.DEFINE_boolean(
-    "shuffle",
-    default=True,
-    help="Whether or not to shuffle the input training data.")
+flags.DEFINE_integer("seed", default=0, help="Random seed.")
 # TODO(dusenberrymw): Expose an open-source version of this file.
 flags.DEFINE_string(
     "stats_config_path",

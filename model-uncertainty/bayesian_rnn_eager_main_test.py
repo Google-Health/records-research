@@ -12,12 +12,13 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-"""Tests for the Bayesian RNN Eager train/eval/predict script."""
+"""Tests for the Bayesian RNN train/eval/predict script."""
 import os
 import tempfile
 
 from absl import flags
 from absl.testing import flagsaver
+from absl.testing import parameterized
 import tensorflow.compat.v2 as tf
 
 import bayesian_rnn_eager_main
@@ -30,11 +31,11 @@ import resources
 flags.adopt_module_key_flags(bayesian_rnn_flags)
 FLAGS = flags.FLAGS
 
-# TODO(dusenberrymw): Expose open-source versions of these files.
+# TODO(dusenberrymw): Expose 1n open-source version of this directory.
 TESTDATA_DIR = ("test/testdata/integration/")
 
 
-class BayesianRnnEagerMainTest(tf.test.TestCase):
+class BayesianRnnEagerMainTest(tf.test.TestCase, parameterized.TestCase):
 
   def setUp(self):
     super().setUp()
@@ -50,7 +51,8 @@ class BayesianRnnEagerMainTest(tf.test.TestCase):
     FLAGS.input_dir = input_data_dir
     FLAGS.stats_config_path = os.path.join(
         resources.GetRunfilesDir(), TESTDATA_DIR, "VOCAB/dense_stats_config")
-    FLAGS.batch_size = 2
+    FLAGS.batch_size = 6
+    FLAGS.ensemble_size = 3
     FLAGS.rnn_dim = 32
     FLAGS.log_steps = 2
     FLAGS.max_steps = 5
@@ -61,15 +63,19 @@ class BayesianRnnEagerMainTest(tf.test.TestCase):
     FLAGS.uncertainty_output = True
     FLAGS.uncertainty_biases = True
 
+  @parameterized.parameters(["bayesian_rnn", "rank1_bayesian_rnn"])
   @flagsaver.flagsaver
-  def testBayesianRNNEagerMain(self):
+  def testBayesianRNNEagerMain(self, model):
+    FLAGS.model = model
     bayesian_rnn_eager_main.main([])
     self.assertNotEmpty(os.listdir(FLAGS.logdir))
     self.assertNotEmpty(os.listdir(FLAGS.model_dir))
     self.assertEmpty(os.listdir(FLAGS.predict_dir))
 
+  @parameterized.parameters(["bayesian_rnn", "rank1_bayesian_rnn"])
   @flagsaver.flagsaver
-  def testBayesianRNNEagerMainTrainEvalPredict(self):
+  def testBayesianRNNEagerMainTrainEvalPredict(self, model):
+    FLAGS.model = model
     FLAGS.job = "train"
     bayesian_rnn_eager_main.main([])
     self.assertNotEmpty(os.listdir(FLAGS.logdir))
