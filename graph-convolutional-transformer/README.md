@@ -1,6 +1,6 @@
 # Graph Convolutional Transformer
 
-This repository contains an implementation of Graph Convolutional Transformer, as described in “Learning the Graphical Structure of Electronic Health Records with Graph Convolutional Transfomer” (Choi et al. 2020). Code was written using Python 2.7 and Tensorflow 1.12.
+This repository contains an implementation of Graph Convolutional Transformer, as described in “Learning the Graphical Structure of Electronic Health Records with Graph Convolutional Transfomer” (Choi et al. 2020). Code was written using Python 2.7 and Tensorflow 1.13.
 
 #### Relevant Publication
 
