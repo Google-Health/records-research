@@ -10,7 +10,9 @@ The code sample provided here is *not executable*. We illustrate the core
 implementation of our model architecture, but parts of this code reference
 internal Google utilities, many of which rely on C++ implementations of custom
 Tensorflow ops. For these, we describe the functionality and the expected inputs
-and outputs. The format and methodology of our data pipeline, which prepares the
+and outputs.
+
+Preprocessed Tensorflow SequenceExamples for MIMIC-III, used to produce the results in the above paper, are available for download by credentialed users on [Physionet](https://physionet.org/content/mimic-seqex). The format and methodology of our data pipeline, which prepares the
 model inputs, have been described in detail in previous work
 ([“Scalable and accurate deep learning with electronic health records"](https://www.nature.com/articles/s41746-018-0029-1),
 Rajkomar et al., NPJ Digital Medicine 2018).
