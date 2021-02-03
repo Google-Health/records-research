@@ -1,0 +1,126 @@
+syntax = "proto2";
+
+package google.health.records;
+
+message Label {
+  // The label name.
+  optional string name = 1;
+  // Number of classes in the prediction task. Use 2 for binary prediction.
+  optional int32 num_classes = 2 [default = 2];
+  // Whether this label is for an event in survival analysis.
+  optional bool is_survival_event = 3 [default = false];
+  // For survival labels, the survival model for this event.
+  optional string survival_model_name = 4 [default = 'exponential'];
+  // Weight for this label.
+  optional int32 weight = 5 [default = 1];
+}
+
+// Parameters for gradient-based parameter updates
+message OptimizerConfig {
+  // Identifier for update rule. See models.py
+  optional string name = 1 [default = 'adam'];
+  // Momentum value during training
+  optional double momentum = 3 [default = 0.9];
+}
+
+message ModelConfig {
+  repeated Label labels = 1;
+  // The data field containing the observation code.
+  repeated string observation_codes = 2;
+  // Length of the input time series feature.
+  optional int32 context_window_size = 3 [default = 72];
+  // Number of sequences per batch.
+  optional int32 batch_size = 4 [default = 32];
+  // Configuration for optimizer.
+  optional OptimizerConfig optimizer = 5;
+  // Learning rate used by optimizer.
+  optional double learning_rate = 6 [default = 0.001];
+  optional string model_name = 7 [default = 'mlp'];
+  // Number of dense layers.
+  optional int32 ndl = 8 [default = 3];
+  // Dense layer size, i.e., number of hidden units in each dense layer.
+  optional int32 sdl = 9 [default = 32];
+  // Dropout rate applied to dense layer.
+  optional double drdl = 10 [default = 0.001];
+  // Whether the loss function is computed based on a survival model.
+  optional bool is_survival_model = 11 [default = false];
+  // For correlated event survival model. List of event_relations.
+  repeated EventRelation event_relation = 12;
+  // Size of hidden state of the model.
+  optional int32 da_state = 13 [default = 60];
+  // Size of a time slot in hrs to discretize the time horizon.
+  optional int32 da_sslot = 14 [default = 1];
+  // Max time slot to cap the input time.
+  optional int32 da_tlen = 15 [default = 3];
+  // Num units in the MLP.
+  optional int32 da_unit = 16 [default = 16];
+  // Output logit dimension from feature encoding network.
+  optional int32 logits_dimension = 17 [default = 1];
+  // Num layers in the PSI MLP.
+  optional int32 da_psi_mlpl = 18 [default = 1];
+  // Num layers in the PHI MLP.
+  optional int32 da_phi_mlpl = 19 [default = 3];
+  optional bool is_decomposed_model = 20 [default = false];
+
+  // Num layers in per-feature conv module.
+  optional int32 ncl = 30 [default = 3];
+  // Num expected kernels in per-feature conv module.
+  optional int32 cnk = 31 [default = 20];
+  // Num kernel size in per-feature conv module.
+  optional int32 cks = 32 [default = 2];
+  // Stride size in per-feature conv module.
+  optional int32 cstrd = 33 [default = 1];
+  // Num layers in joint-feature conv module.
+  optional int32 fncl = 34 [default = 1];
+  // Num expected kernels in joint-feature conv module.
+  optional int32 fcnk = 35 [default = 20];
+  // Num kernel size in joint-feature conv module.
+  optional int32 fcks = 36 [default = 2];
+  // Stride size in joint-feature conv module.
+  optional int32 fcstrd = 37 [default = 2];
+
+  // Whether it is a dynamic system model where input features are
+  // interventions and loss are evaluated based on the generated
+  // sequence of observations.
+  optional bool is_dynamic_system_model = 50 [default = false];
+  // The data field containing the intervention code.
+  repeated string intervention_codes = 51;
+  // Hidden state dimension of the dynamic system model.
+  optional int32 ds_state = 52 [default = 30];
+  // Number of layers of RNN in the dynamic system model.
+  optional int32 ds_nrl = 53 [default = 1];
+  optional string rnn_type = 54 [default = 'basic'];
+  optional string rnn_cell_type = 55 [default = 'lstm'];
+  // The number of most recent observations used for computing loss.
+  optional int32 last_obs_len = 56 [default = 1];
+  // System identification task weight.
+  optional double sys_id_weight = 57 [default = 1];
+
+  // Deep Kalman filter MLP parameters.
+  optional int32 obs_nmlp = 60 [default = 2];
+  optional int32 obs_smlp = 61 [default = 32];
+  optional int32 stran_nmlp = 62 [default = 2];
+  optional int32 stran_smlp = 63 [default = 32];
+  optional int32 ctran_nmlp = 64 [default = 2];
+  optional int32 ctran_smlp = 65 [default = 32];
+}
+
+message ExportConfig {
+  optional string objective = 1 [default = 'loss'];
+  optional int32 num_export_models_to_keep = 2 [default = 6];
+}
+
+message ExperimentConfig {
+  // Model config.
+  optional ModelConfig model = 1;
+  // Data sources for training.
+  repeated string train_sources = 2;
+  // Data sources for evaluation.
+  repeated string eval_sources = 3;
+  // Data sources for test.
+  repeated string test_sources = 4;
+  // Directory to store experiment logs and checkpoints.
+  optional string experiment_dir = 5;
+  // Config for export.
+  optional ExportConfig export_config = 6;
+}
