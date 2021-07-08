@@ -1,0 +1,635 @@
+1	0.9% Sodium Chloride Injection.|0.9% Sodium Chloride||Injection||||||||792030|9863|sodium chloride
+2	10% Calcium Gluconate Injection.|Calcium Gluconate||Injection|10%|||||||197435|1908|calcium gluconate
+3	10% Chloral Hydrate Enemas.|Chloral Hydrate|||10%||||||C0008161|2344|2344|chloral hydrate
+4	10% Chloral Hydrate Syrup.|Chloral Hydrate||Syrup|10%||||||C0981377|755618|38574|trichloroacetaldehyde
+6	10% Potassium Chloride Injection.|Potassium Chloride||Injection|10%|||||||904183|8591|potassium chloride
+7	10% Potassium Chloride Oral Solution.|Potassium Chloride||Oral Solution|10%|||||||312515|8591|potassium chloride
+8	10% Sodium Chloride Injection.|Sodium Chloride||Injection|10%||||||null|1807545|9863|sodium chloride
+9	1% Bifonazole Cream.|Bifonazole||Cream|1%|||||||199434|19295|bifonazole
+10	20% Albumin Prepared From Human Plasma Injection.|Human Plasma||Injection|||||||C0544357|142236|142236|plasma, human, normal
+10	20% Albumin Prepared From Human Plasma Injection.|Albumin|||20%|||||||245161|828529|human serum albumin
+11	20% Deproteinized Calfblood Extract Eye Gel. 20% Fat Emulsion Injection.|Fat Emulsion||Eye Gel.|20%||||||null|805124|9949|soybean oil
+12	20% Mannitol Injection.|Mannitol||Injection|20%|||||||311449|6628|mannitol
+13	20% Medium and Long Chain Fat Emulsion Injection.|Fat Emulsion||Injection|20%||||||C0775113|805124|9949|soybean oil
+14	25% Magnesium Sulfate Injection.|Magnesium Sulfate||Injection|25%||||||C1371209|441141|6585|magnesium sulfate
+15	2% Procaine Hydrochloride Injection.|Procaine Hydrochloride||Injection|2%|||||||238031|8701|procaine
+16	(4:1)Glucose and Sodium Chloride Injection.|Sodium Chloride||Injection|||||||null|1807545|9863|sodium chloride
+19	5% Calcium Chloride Injection.|Calcium Chloride||Injection|5%||||||C4307257|1867735|1901|calcium chloride
+20	5% Glucose and Sodium Chloride Injection.|Sodium Chloride||Injection|5%|||||||730782|9863|sodium chloride
+22	5% Sodium Bicarbonate Injection.|Sodium Bicarbonate||Injection|5%|||||||1009241|36676|sodium bicarbonate (obsolete)
+23	6% Dextran 40 Glucose Injection.|Dextran 40||Injection|6%||||||C4317584|1872583|3272|dextran 40
+24	76% Compound Meglumine Diatrizoate Injection.|Diatrizoate||Injection||||||||877054|3319|diatrizoate
+24	76% Compound Meglumine Diatrizoate Injection.|Meglumine|||76%||||||C0025179|6704|6704|meglumine
+25	Aciclovir Eye Drops.|Eye Drops||||||||||346237|346237|eye drops
+25	Aciclovir Eye Drops.|Aciclovir||||||||||281|281|acyclovir
+26	Aciclovir for Injection.|Aciclovir||Injection||||||||281|281|acyclovir
+27	Aclarubicin Hydrochlorid for Injection.|Aclarubicin||Injection|||||||C1252351|378110|239|aclarubicin
+28	Ademetionine  1,4-Butanedisulfonate for Injection.|1,4-Butanedisulfonate||Injection|||||||null|1127203|1362577|1,2,6-hexanetriol
+28	Ademetionine  1,4-Butanedisulfonate for Injection.|Ademetionine||||||||||9504|9504|ademetionine
+29	Adenosine Disodium Triphosphate Injection.|Triphosphate||Injection|||||||C0146894|1487534|1487534|triphosphate
+29	Adenosine Disodium Triphosphate Injection.|Adenosine|||||||||C0001443|296|296|adenosine
+30	Adrenaline Hydrochlaride Injection.|Adrenaline||Injection||||||||245317|3992|epinephrine
+32	Alanyl Glutamine Injection.|Alanyl Glutamine||Injection|||||||C0051080|1359422|1359422|alanyl glutamine
+33	Allopurinol Tablets.|Allopurinol||Tablets|||||||C1244568|370547|519|allopurinol
+34	Alprostadil Injection.|Alprostadil||Injection|||||||C4056817|1668050|598|alprostadil
+35	Alteplase for Injection.|Alteplase||Injection|||||||null|1804798|8410|alteplase
+36	Ambroxol Hydrochloride and Clenbuterol Hydrochloride Oral Solution.|Ambroxol Hydrochloride|||||||||C1367795|438399|438399|ambroxol hcl
+36	Ambroxol Hydrochloride and Clenbuterol Hydrochloride Oral Solution.|Clenbuterol Hydrochloride||Oral Solution|||||||C1245591|371550|2580|clenbuterol
+37	Ambroxol Hydrochloride and Glucose Injection.|Ambroxol Hydrochloride||Injection|||||||C1367795|438399|438399|ambroxol hcl
+38	Ambroxol Hydrochloride Injection.|Ambroxol Hydrochloride||Injection|||||||C1367795|438399|438399|ambroxol hcl
+39	Ambroxol Hydrochloride Oral Solution.|Ambroxol Hydrochloride||Oral Solution|||||||C1244869|370840|625|ambroxol
+40	Amifostine For Injection.|Amifostine||Injection|||||||C4058838|1721593|4126|amifostine
+41	Amikacin Sulfate Injection.|Amikacin Sulfate||Injection||||||||905143|641|amikacin
+42	Aminomethylbenzoic Acid Injection.|Aminomethylbenzoic Acid||Injection||||||||14852|14852|aminomethylbenzoic acid
+44	Aminophylline Tablets.|Aminophylline||Tablets|||||||C1252400|378154|689|aminophylline
+45	Amiodarone Hydrochloride injection.|Amiodarone Hydrochloride||injection||||||||833532|703|amiodarone
+46	Amiodarone Hydrochloride Tablets.|Amiodarone Hydrochloride||Tablets||||||||835956|703|amiodarone
+47	Amlodipine Besylate Tablets.|Amlodipine Besylate||Tablets|||||||C4719959|2054533|104416|amlodipine besylate
+48	Amoxicillin and Clavulanate Potassium Granules.|Amoxicillin|||||||||C0002645|723|723|amoxicillin
+48	Amoxicillin and Clavulanate Potassium Granules.|Clavulanate Potassium||Granules|||||||C0137997|831418|831418|clavulanate potassium
+49	Amoxicillin and Clavulanate Potassium Tablets.|Amoxicillin|||||||||C0002645|723|723|amoxicillin
+49	Amoxicillin and Clavulanate Potassium Tablets.|Clavulanate Potassium||Tablets|||||||C0137997|831418|831418|clavulanate potassium
+50	Amoxicillin Sodium and Clavulanate Potassium for Injection.|Amoxicillin Sodium|||||||||C0887551|267360|267360|amoxicillin sodium
+50	Amoxicillin Sodium and Clavulanate Potassium for Injection.|Clavulanate Potassium||Injection|||||||C0137997|831418|831418|clavulanate potassium
+51	Amoxicillin Sodium and Sulbactam Sodium for Injection.|Amoxicillin Sodium|||||||||C0887551|267360|267360|amoxicillin sodium
+51	Amoxicillin Sodium and Sulbactam Sodium for Injection.|Sulbactam Sodium||Injection|||||||C0282355|82100|82100|sulbactam sodium
+52	Amphotericin B Liposome for Injection.|Amphotericin B Liposome||Injection|||||||C4081149|1737434|236594|amphotericin b lipid complex (dmpc/dmpg)
+53	Ampicillin Sodium and Sulbactam Sodium for Injection.|Ampicillin Sodium|||||||||C0282052|81953|81953|ampicillin sodium
+53	Ampicillin Sodium and Sulbactam Sodium for Injection.|Sulbactam Sodium||Injection|||||||C0282355|82100|82100|sulbactam sodium
+54	Ampicillin Sodium for Injection.|Ampicillin Sodium||Injection|||||||C0981234|313819|733|ampicillin
+55	Anhydrous Sodium Hydrogen Phosphate.|Sodium|||||||||C0037473|9853|9853|sodium
+56	Argatroban Injection.|Argatroban||Injection|||||||null|1804730|15202|argatroban
+57	Arginine Hydrochloride Injection.|Arginine Hydrochloride||Injection|||||||C0974540|308352|1091|l-arginine
+58	Aripiprazole Tablets.|Aripiprazole||Tablets|||||||C1252562|378301|89013|aripiprazole
+60	Asarone Injection.|Asarone||Injection||||||||||
+61	Asparaginase for lnjection.|Asparaginase|||||||||C0003993|1156|1156|asparaginase
+62	Aspirin Enteric-Coated Tablets.|Aspirin||Tablets|||||||C1244632|370611|1191|acetylsalicylic acid
+63	Atropine Sulfate Injection.|Atropine Sulfate||Injection||||||||1190795|1223|atropine
+64	Atropine Sulfate Tablets.|Atropine Sulfate||Tablets|||||||C4720032|2054609|153971|atropine sulfate
+65	Azasetron Hydrochloride Injection.|Hydrochloride||Injection||||||||1298842|1298842|hydrochloride
+65	Azasetron Hydrochloride Injection.|Azasetron||||||||||115173|115173|azasetron
+66	Azathioprine Tablets.|Azathioprine||Tablets|||||||C1245007|370973|1256|azathioprine
+67	Azithromycin for Injection.|Azithromycin||Injection|||||||C4056814|1668237|18631|azithromycin
+68	Azithromycin for Suspension.|Azithromycin||Suspension|||||||C1245009|370975|18631|azithromycin
+69	Azithromycin Lactobionate for Injection.|Lactobionate||Injection|||||||C0971919|1426414|1426414|lactobionate
+69	Azithromycin Lactobionate for Injection.|Azithromycin|||||||||C0052796|18631|18631|azithromycin
+70	Azithromycin Tablets.|Azithromycin||Tablets|||||||C1245010|370976|18631|azithromycin
+71	Aztreonam for Injection.|Aztreonam||Injection|||||||C4050968|1664980|1272|aztreonam
+72	Baclofen Tablets.|Baclofen||Tablets|||||||C1245019|370985|1292|baclofen
+74	BCG polysaccharide and Nucleic Acid Injection.|polysaccharide||Injection||||||||8556|8556|polysaccharides
+74	BCG polysaccharide and Nucleic Acid Injection.|BCG||||||||||42579|42579|bcg
+75	Beclomethasone dipropionate inhalation suspension.|Beclomethasone dipropionate||inhalation suspension||||||||104568|1347|beclomethasone
+76	Benzalkonium Chloride Patches.|Benzalkonium Chloride|||||||||C0005026|1379|1379|benzalkonium chloride
+77	Benzalkonium Chloride Solut ion.|Benzalkonium Chloride|||||||||C0005026|1379|1379|benzalkonium chloride
+78	Benzathine Benzylpenicillin for Injection.|Benzathine Benzylpenicillin||Injection||||||||7982|7982|benzathine benzylpenicillin
+79	Benzhexol Hydrochloride Tablets.|Benzhexol Hydrochloride||Tablets||||||||905283|10811|trihexyphenidyl
+80	Benzylpenicillin Sodium for Injection.|Sodium||Injection||||||||1159317|9863|sodium chloride
+80	Benzylpenicillin Sodium for Injection.|Benzylpenicillin||||||||||7980|7980|benzylpenicillin
+81	Berberine Hydrochloride Tablets.|Hydrochloride||Tablets||||||||1298842|1298842|hydrochloride
+81	Berberine Hydrochloride Tablets.|Berberine|||||||||C0005117|1437|1437|berberine
+83	Bifonazole Cream.|Bifonazole||Cream|||||||C1252095|377860|19295|bifonazole
+84	Bifonazole Gel.|Bifonazole||Gel|||||||C1367312|437951|19295|bifonazole
+86	Bleomycin Hydrochloride for Injection.|Hydrochloride||Injection||||||||1298842|1298842|hydrochloride
+86	Bleomycin Hydrochloride for Injection.|Bleomycin|||||||||C0005740|1622|1622|bleomycin
+87	Budesonide and formoterol Fumarate Powder for Inhalation.|Budesonide|||||||||C0054201|19831|19831|budesonide
+87	Budesonide and formoterol Fumarate Powder for Inhalation.|formoterol Fumarate||Powder|||Inhalation|||||476700|236216|formoterol fumarate
+88	Budesonide Suspension for Inhalation.|Budesonide||Suspension|||Inhalation||||C4745751|2108295|19831|budesonide
+89	Busulfan Injection.|Busulfan||Injection|||||||C4059436|1729351|1828|busulfan
+90	Caffeine Citrate Injection.|Caffeine Citrate||Injection|||||||C0975106|849931|1886|caffeine
+91	Calamine Lotion.|Calamine||Lotion|||||||C1251857|377624|106212|calamine
+92	Calcitriol Soft Capsules.|Calcitriol||Capsules|||||||C1245226|371189|1894|calcitriol
+93	Calcium Acetate Granules.|Calcium Acetate||Granules|||||||C0717537|214342|214342|calcium acetate
+94	Calcium Carbonate and Vitamin D3 Chewable Tablets.|Calcium Carbonate|||||||||C0006681|1897|1897|calcium carbonate
+94	Calcium Carbonate and Vitamin D3 Chewable Tablets.|Vitamin D3||Chewable|||||||C3265062|1244014|1244014|vitamin d3
+95	Calcium Folinate for Injection.|Calcium Folinate||Injection|||||||C0731033|225852|225852|calcium folinate
+96	Calcium Gluconate Oral Solution.|Calcium Gluconate||Oral Solution|||||||C1245268|371227|1908|calcium gluconate
+97	Calcium Supplement with Vitamin D Chewable Tablets-Children's Formula.|Calcium|||||||||C0006675|1895|1895|calcium
+97	Calcium Supplement with Vitamin D Chewable Tablets-Children's Formula.|Vitamin D|||||||||C0042866|11253|11253|vitamin d
+97	Calcium Supplement with Vitamin D Chewable Tablets-Children's Formula.|Calcium||Chewable||||||||1295292|11253|vitamin d
+98	Calf Pulmonary Surfactant for Injection.|Pulmonary Surfactant||Injection||||||||8943|8943|pulmonary surfactant
+99	Captopril Tablets.|Captopril||Tablets|||||||C1245295|371254|1998|captopril
+100	Carbamazepine Tablets.|Carbamazepine||Tablets|||||||C1245301|371260|2002|carbamazepine
+101	Carbazochrome Sodium Sulfonate for Injection.|Carbazochrome Sodium Sulfonate||Injection|||||||C0054657|20209|20209|carbazochrome sodium sulfonate
+102	Carboplatin Injection.|Carboplatin||Injection|||||||C1252655|378363|40048|carboplatin
+103	Carvedilol Tablets.|Carvedilol||Tablets|||||||C1245337|371296|20352|carvedilol
+104	Caspofungin Acetate for Injection.|Caspofungin Acetate||Injection|||||||C0935942|282363|282363|caspofungin acetate
+105	Cattle Encephalon Glycoside and Ignotin Injection.|Glycoside||Injection||||||||2079|2079|glycoside
+106	Cefaclor Capsules.|Cefaclor||Capsules|||||||C1245354|371313|2176|cefaclor
+107	Cefaclor for Suspension.|Cefaclor||Suspension|||||||C1245355|371314|2176|cefaclor
+108	Cefadroxil Tablets.|Cefadroxil||Tablets|||||||C1245360|371319|2177|cefadroxil
+109	Cefamandole Nafate for Injection.|Cefamandole Nafate||Injection|||||||C0054995|20473|20473|cefamandole nafate
+111	Cefdinir Capsules.|Cefdinir||Capsules|||||||C1245366|371325|25037|cefdinir
+112	Cefdinir Dispersible Tablets.|Cefdinir||Tablets|||||||C0060405|25037|25037|cefdinir
+113	Cefepime Hydrochloride For Injection.|Cefepime Hydrochloride||Injection|||||||C0771284|236058|236058|cefepime hcl
+114	Cefixime Capsules.|Cefixime||Capsules|||||||C1367786|438392|25033|cefixime
+115	Cefixime Granules.|Cefixime||Granules|||||||C0060400|25033|25033|cefixime
+116	Cefmenoxime Hydrochloride for Injection.|Hydrochloride||Injection||||||||1298842|1298842|hydrochloride
+116	Cefmenoxime Hydrochloride for Injection.|Cefmenoxime||||||||||2181|2181|cefmenoxime
+117	Cefmetazole Sodium for Injection.|Cefmetazole Sodium||Injection||||||||198394|2182|cefmetazole
+118	Cefminox Sodium for Injection.|Cefminox Sodium||Injection||||||||498618|498618|cefminox sodium
+119	Cefodizime Sodium for Injection.|Cefodizime Sodium||Injection||||||||492896|492896|cefodizime sodium
+120	Cefoperazone Sodium and Sulbactam Sodium for Injection.|Cefoperazone Sodium|||||||||C0733367|227214|227214|cefoperazone sodium
+120	Cefoperazone Sodium and Sulbactam Sodium for Injection.|Sulbactam Sodium||Injection|||||||C0282355|82100|82100|sulbactam sodium
+121	Cefotaxime Sodium for Injection.|Cefotaxime Sodium||Injection|||||||C0975368|309067|2186|cefotaxime
+122	Cefotiam Hydrochloride for Injection.|Cefotiam Hydrochloride||Injection|||||||C0878490|236202|236202|cefotiam hcl
+123	Cefradine for Injection.|Cefradine||Injection||||||||2239|2239|cefradine
+124	Ceftazidime for Injection.|Ceftazidime||Injection|||||||C4047217|1659277|2191|ceftazidime
+125	Ceftriaxone Sodium for Injection.|Ceftriaxone Sodium||Injection|||||||C0975414|309093|203172|
+126	Cefuroxime Axetil Tablets.|Cefuroxime Axetil||Tablets|||||||C4719916|2054489|20493|
+127	Cefuroxime Sodium for Injection.|Cefuroxime Sodium||Injection||||||||387066|2194|cefuroxime
+128	Cefuroxime Sodium For Injection.|Cefuroxime Sodium||Injection||||||||387066|2194|cefuroxime
+129	Celecoxib capsules.|Celecoxib||capsules|||||||C1245384|371343|140587|celecoxib
+130	Centrum Junior Tablets.|Centrum||Tablets||||||||696193|92103|
+132	Cetirizine Hydrochloride Drops.|Cetirizine Hydrochloride||Drops|||||||C0700480|203150|203150|cetirizine hcl
+133	Cetirizine Hydrochloride Oral Solution.|Cetirizine Hydrochloride||Oral Solution|||||||C4730906|2056570|203150|cetirizine hcl
+134	Cetirizine Hydrochloride Syrup.|Cetirizine Hydrochloride||Syrup|||||||C0792562|1014673|20610|cetirizine
+136	Chloral hydrate powder for enema.|Chloral hydrate||powder||||||||601003|2344|chloral hydrate
+137	Chloramphenicol Injection.|Chloramphenicol||Injection|||||||C1244521|370500|2348|chloramphenicol
+138	Chlorhexidine Acetate Powder.|Chlorhexidine Acetate||Powder||||||||1135212|2358|chlorhexidine
+139	Chlorpromazine Hydrochloride Injection.|Chlorpromazine Hydrochloride||Injection||||||||991213|104728|chlorpromazine hydrochloride
+140	Ciclosporin Injection.|Ciclosporin||Injection||||||||3008|3008|ciclosporin
+141	Ciclosporin Soft Capsules.|Ciclosporin||Capsules||||||||197553|3008|ciclosporin
+142	Cimetidine Injection.|Cimetidine||Injection|||||||C3206299|1151782|2541|cimetidine
+143	Ciprofloxacin and Sodium Chloride Injection.|Ciprofloxacin|||||||||C0008809|2551|2551|ciprofloxacin
+143	Ciprofloxacin and Sodium Chloride Injection.|Sodium Chloride||Injection|||||||null|1807545|9863|sodium chloride
+144	Cisplatin for Injection.|Cisplatin||Injection|||||||C4081039|1736853|2555|cisplatin
+145	Citicoline Sodium Capsules.|Citicoline Sodium||Capsules||||||||1602221|997602|citicoline
+146	Clarithromycin Granule for Oral Suspension.|Clarithromycin||Oral Suspension|||||||C1245580|371539|21212|clarithromycin
+147	Clarithromycin Tablets.|Clarithromycin||Tablets|||||||C1245581|371540|21212|clarithromycin
+148	Clindamycin Phosphate for Injection.|Clindamycin Phosphate||Injection|||||||C0706958|205964|2582|clindamycin
+149	Clonazepam Tablets.|Clonazepam||Tablets|||||||C1245620|371579|2598|clonazepam
+150	Clopidogrel Bisulfate Tablets.|Clopidogrel Bisulfate||Tablets||||||||309362|32968|clopidogrel
+152	Clotrimazole Cream.|Clotrimazole||Cream|||||||C1251893|377660|2623|clotrimazole
+154	"Combined Bacillus Subtilis and Enterococcus Faecium Granules with Multivitamines.|Bacillus Subtilis|||||||||C1258092|1311119|1311119|bacillus subtilis
+154	"Combined Bacillus Subtilis and Enterococcus Faecium Granules with Multivitamines.|Enterococcus Faecium||Granules|||||||C0085495|1943794|1943794|enterococcus faecium
+155	"Combined Clostridium Butyricum and Bifidobacterium Powders.|Bifidobacterium|||||||||C0005380|813381|813381|bifidobacterium
+156	Compoud Polyethylene Glycol-Electrolyte Powder.|Polyethylene Glycol||Powder||||||||1143714|8516|polyethylene oxide
+157	Compound Amino Acid Injection.|Amino Acid||Injection||||||||388639|658|amino acids
+158	Compound Betamethasone Injection.|Betamethasone||Injection|||||||C1252631|378340|1514|betamethasone
+159	Compound Chlorhexidine Gargle.|Chlorhexidine||Gargle|||||||C0008196|2358|2358|chlorhexidine
+160	Compound Dextran 40 Injection.|Dextran 40||Injection|||||||C4317584|1872583|3272|dextran 40
+161	Compound Digestive Enzyme Capsules.|Digestive Enzyme||Capsules||||||||876780|142283|enzymes,digestive
+162	Compound Glycyrrhizin Injection.|Glycyrrhizin||Injection|||||||C0061751|26143|26143|glycyrrhizin
+163	Compound Glycyrrhizin Tablets .|Glycyrrhizin||Tablets|||||||C0061751|26143|26143|glycyrrhizin
+164	Compound Guaiacol Potassium Sulfonale Oral Solution.|Potassium||Oral Solution|||||||C1249718|375594|8588|potassium
+164	Compound Guaiacol Potassium Sulfonale Oral Solution.|Guaiacol|||||||||C0018304|5031|5031|guaiacol
+165	Compound Guaifenesin and Pseudoephedrine Hydrochloride Oral Solution.|Guaifenesin|||||||||C0018305|5032|5032|guaifenesin
+165	Compound Guaifenesin and Pseudoephedrine Hydrochloride Oral Solution.|Pseudoephedrine Hydrochloride||Oral Solution|||||||C4730862|2056356|91168|pseudoephedrine hydrochloride
+166	Compound Indometacin Tincture.|Indometacin||Tincture||||||||5781|5781|indometacin
+167	Compound Lidocaine Cream.|Lidocaine||Cream|||||||C1591047|562081|6387|lidocaine (obsolete)
+168	Compound Paracetamol TabletsⅡ.|Paracetamol|||||||||C0000970|161|161|paracetamol
+169	Compound Pepsin Powder.|Pepsin Powder||||||||||237885|237885|pepsin powder
+170	Compound Pholcodine Oral Solution.|Pholcodine||Oral Solution|||||||C1247507|373442|33431|pholcodine
+171	Compound Reserpine Tablets.|Reserpine||Tablets|||||||C1247839|373769|9260|reserpine
+172	Compound Rutin Tablets.|Rutin||Tablets|||||||C1247878|373808|9500|rutoside
+173	Compound Sodium Valproate and Valproic Acid Sustained Release Tablets.|Sodium Valproate|||||||||C0037567|9919|9919|valproate sodium
+173	Compound Sodium Valproate and Valproic Acid Sustained Release Tablets.|Valproic Acid||Sustained Release|||||||C0042291|11118|11118|valproic acid
+174	Compound Sulfamethoxazole Injection.|Sulfamethoxazole||Injection|||||||C0038689|10180|10180|sulfamethoxazole
+175	Compound Sulfamethoxazole Tablets.|Sulfamethoxazole||Tablets|||||||C1248055|373983|10180|sulfamethoxazole
+176	Compound Triamcinolone Acetonide Cream.|Triamcinolone Acetonide||Cream|||||||C4722879|2053236|10761|triamcinolone acetonide
+177	Compound Tropicamide Eye Drops.|Eye Drops||||||||||346237|346237|eye drops
+177	Compound Tropicamide Eye Drops.|Tropicamide|||||||||C0041190|10869|10869|tropicamide
+178	Compound Vitamin B Tablets.|Vitamin B||Tablets||||||||105767|11251|vitamin b
+179	"Compound Zinc Gluconate.|Zinc Gluconate|||||||||C0149381|58300|58300|zinc gluconate
+180	Concentrated Sodium Chloride Injection.|Sodium Chloride||Injection|||||||null|1807545|9863|sodium chloride
+182	Creatine phosphate sodium for injection.|sodium||injection||||||||1159317|9863|sodium chloride
+182	Creatine phosphate sodium for injection.|Creatine phosphate||||||||||8225|8225|phosphocreatine
+183	Cyclophosphamide for Injection.|Cyclophosphamide||Injection|||||||C4080546|1734916|3002|cyclophosphamide
+184	Cyclosporin Oral Solution.|Cyclosporin||Oral Solution|||||||C0976048|309632|3008|ciclosporin
+185	Cytarabine for Injection.|Cytarabine||Injection|||||||C4074687|1731354|3041|cytarabine
+186	Dactinomycin For Injection.|Dactinomycin||Injection|||||||C4050110|1731088|3100|dactinomycin
+187	Deslanoside Injection.|Deslanoside||Injection|||||||C1245753|371712|3248|deslanoside
+188	Desloratadine for Suspension.|Desloratadine||Suspension|||||||C0908935|275635|275635|desloratadine
+189	Desmopressin Acetate Tablets.|Desmopressin Acetate||Tablets|||||||C0704671|833008|3251|desmopressin
+190	Desonide Cream.|Desonide||Cream|||||||C1251901|377668|3254|desonide
+191	Dexamethasone Acetate Tablets.|Dexamethasone Acetate||Tablets|||||||C0057598|22690|22690|dexamethasone acetate
+192	Dexamethasone Sodium Phosphate Injection.|Dexamethasone Sodium Phosphate||Injection||||||||105394|3264|dexamethasone
+193	Dexmedetomidine Hydrochloride Injection.|Dexmedetomidine Hydrochloride||Injection|||||||C0976148|309710|48937|dexmedetomidine
+194	Dexrazoxane for Injection.|Dexrazoxane||Injection|||||||C4080988|1736584|42736|dexrazoxane
+195	Diazepam Injection.|Diazepam||Injection|||||||C3210304|1155859|3322|diazepam
+196	Diazepam Tablets.|Diazepam||Tablets|||||||C1245827|371786|3322|diazepam
+197	Diclofenac Diethylamine Emulgel.|Diclofenac Diethylamine|||||||||C0771369|236125|3355|diclofenac
+198	Diclofenac Sodium Enteric-coated Tablets.|Diclofenac Sodium||Tablets||||||||855906|3355|diclofenac
+199	Digoxin Elixirs.|Digoxin|||||||||C0012265|3407|3407|digoxin
+200	Digoxin Oral Solution.|Digoxin||Oral Solution|||||||C1245875|371833|3407|digoxin
+201	Digoxin Tablets.|Digoxin||Tablets|||||||C1245876|371834|3407|digoxin
+203	Dobutamine Hydrochloride Injection.|Dobutamine Hydrochloride||Injection|||||||C0700450|203121|203121|dobutamine hcl
+204	Domperidone Suspension.|Domperidone||Suspension|||||||C1245998|371956|3626|domperidone
+205	Domperidone Tablets.|Domperidone||Tablets|||||||C1245997|371955|3626|domperidone
+206	Dopamine Hydrochloride Injection.|Dopamine Hydrochloride||Injection|||||||C0282151|82010|82010|dopamine hydrochloride
+207	Droperidol Injection.|Droperidol||Injection|||||||null|1743569|3648|droperidol
+210	Emedastine Difumarate Eye Drops.|Eye Drops||||||||||346237|346237|eye drops
+210	Emedastine Difumarate Eye Drops.|Emedastine Difumarate|||||||||C0724578|221094|221094|emedastine difumarate
+211	Enalapril Maleate Tablets.|Enalapril Maleate||Tablets|||||||C4719808|2054374|203123|enalapril maleate
+214	Ephedrine Hydrochloride and Nitrofurazone Nasal Drops.|Ephedrine Hydrochloride|||||||||C0304425|91165|91165|ephedrine hydrochloride
+214	Ephedrine Hydrochloride and Nitrofurazone Nasal Drops.|Nitrofurazone||Drops|||Nasal||||C0028157|7455|7455|nitrofural
+215	Epirubicin  Hydrochloride  For  Injection.|Epirubicin  Hydrochloride||Injection||||||||836378|3995|epirubicin
+216	Ertapenem for Injection.|Ertapenem||Injection|||||||C4048709|1734682|325642|ertapenem
+218	Erythromycin Eye Ointment.|Erythromycin||Eye Ointment|||||||C1248462|374382|4053|erythromycin
+219	Erythromycin Lactobionate for Injection.|Erythromycin Lactobionate||Injection|||||||null|2181708|24347|erythromycin lactobionate
+220	Erythromycin Ointment.|Erythromycin||Ointment|||||||C1248462|374382|4053|erythromycin
+221	Esberitox Tablets.|Esberitox||Tablets||||||||||
+222	Esmolol Hydrochloride Injection.|Esmolol Hydrochloride||Injection|||||||C0774585|979436|49737|esmolol
+223	Estazolam Tablets.|Estazolam||Tablets|||||||C1246115|372071|4077|estazolam
+224	Etamsylate Injection.|Etamsylate||Injection||||||||251229|4112|etamsylate
+225	Etomidate Injection.|Etomidate||Injection|||||||C4026855|1653759|4177|etomidate
+226	Etoposide Injection.|Etoposide||Injection|||||||C4048711|1734339|4179|etoposide
+227	Fat-Soluble Vitamin Injection(Ⅱ).|Vitamin||Injection|||||||C1581207|510940|11262|
+228	Fat-soluble Vitamins for Injection(I).|Vitamins||Injection|||||||C0042890|11262|11262|vitamins
+232	Fentanyl Citrate Injection.|Fentanyl Citrate||Injection|||||||C0546864|142436|142436|fentanyl citrate
+235	Flomoxef Sodium for Injection.|Sodium||Injection||||||||1159317|9863|sodium chloride
+235	Flomoxef Sodium for Injection.|Flomoxef|||||||||C0117881|50092|50092|flomoxef
+236	Fluconazole and Sodium Chloride Injection.|Fluconazole|||||||||C0016277|4450|4450|fluconazole
+236	Fluconazole and Sodium Chloride Injection.|Sodium Chloride||Injection|||||||null|1807545|9863|sodium chloride
+237	Fluconazole Capsules.|Fluconazole||Capsules|||||||C1246256|372208|4450|fluconazole
+238	Fluconazole Injection.|Fluconazole||Injection|||||||C4058715|1721309|4450|fluconazole
+239	Fludarabine Phosphate for Injection.|Fludarabine Phosphate||Injection|||||||null|2181714|25102|fludarabine phosphate
+240	Flumazenil Injection.|Flumazenil||Injection|||||||C1248503|374422|4457|flumazenil
+241	Flunarizine Hydrochloride Capsules .|Flunarizine Hydrochloride||Capsules|||||||C1246264|372216|4459|flunarizine
+242	Fluorometholone Eye Drops.|Eye Drops||||||||||346237|346237|eye drops
+242	Fluorometholone Eye Drops.|Fluorometholone|||||||||C0016351|4491|4491|fluorometholone
+243	Fluticasone Propionate Inhaled Aerosol.|Fluticasone Propionate|||||Inhaled|||||1103865|50121|fluticasone propionate
+244	Fluticasone Propionate Nasal Spray.|Nasal Spray||||||||||126542|126542|nasal spray
+244	Fluticasone Propionate Nasal Spray.|Fluticasone Propionate|||||||||C0117996|50121|50121|fluticasone propionate
+245	Folic Acid Tablets.|Folic Acid||Tablets|||||||C1703213|619044|4511|folic acid
+246	Foscarnet Sodium Injection.|Foscarnet Sodium||Injection|||||||C0146934|57529|57529|foscarnet sodium
+247	Fructose Diphosphate Sodium Injection.|Sodium||Injection||||||||1159317|9863|sodium chloride
+247	Fructose Diphosphate Sodium Injection.|Diphosphate||||||||||997602|997602|citicoline
+247	Fructose Diphosphate Sodium Injection.|Fructose|||||||||C0016745|4570|4570|fructose
+248	Fructose Sodium Diphosphate Oral Solution.|Sodium Diphosphate||Oral Solution||||||||373905|56466|sodium citrate (obsolete)
+248	Fructose Sodium Diphosphate Oral Solution.|Fructose|||||||||C0016745|4570|4570|fructose
+253	Furacilin powder.|Furacilin||powder|||||||C0740138|227726|227726|furacilin
+254	Furazolidone Tablets.|Furazolidone||Tablets|||||||C1246327|372277|4601|furazolidone
+255	Furosemide Injection.|Furosemide||Injection|||||||C4048178|1719285|4603|furosemide
+256	Furosemide Tablets.|Furosemide||Tablets|||||||C1246331|372281|4603|furosemide
+257	Fusidic Acid Cream.|Fusidic Acid||Cream|||||||C0016875|4608|4608|fusidic acid
+258	Gadodiamide Injection.|Gadodiamide||Injection|||||||C0705307|848774|41144|gadodiamide
+259	Gadopentetate Dimeglumine Injection.|Gadopentetate Dimeglumine||Injection|||||||C3217662|1163350|25486|gadopentetate dimeglumine
+260	Ganciclovir for Injection.|Ganciclovir||Injection|||||||C4074682|1732140|4678|ganciclovir
+261	Ganciclovir Ophthalmic Gel. "Gentamycin Sulfate.|Sulfate||Gel.|||||||C0475337|1426598|1426598|sulfate ion
+261	Ganciclovir Ophthalmic Gel. "Gentamycin Sulfate.|Ganciclovir Ophthalmic||||||||||654402|4678|ganciclovir
+262	Gentamycin Sulfate and Procaine Hydrochloride Capsules.|Sulfate|||||||||C0475337|1426598|1426598|sulfate ion
+262	Gentamycin Sulfate and Procaine Hydrochloride Capsules.|Procaine Hydrochloride||Capsules|||||||C1250076|375926|8701|procaine
+263	Glucurolactone Tablets.|Glucurolactone||Tablets||||||||25892|25892|d-glucuronolactone
+264	Glutamine for Injection.|Glutamine||Injection|||||||C0017797|4885|4885|l-glutamine
+265	Glycerol And Fructose Injection.|Fructose||Injection|||||||C3217015|1162693|4570|fructose
+265	Glycerol And Fructose Injection.|Glycerol|||||||||C0017861|4910|4910|glycerin (obsolete)
+266	Glycerol Fructose and Sodium Chloride Injection.|Fructose|||||||||C0016745|4570|4570|fructose
+266	Glycerol Fructose and Sodium Chloride Injection.|Glycerol|||||||||C0017861|4910|4910|glycerin (obsolete)
+266	Glycerol Fructose and Sodium Chloride Injection.|Sodium Chloride||Injection|||||||null|1807545|9863|sodium chloride
+267	Granisetron Hydrochloride Injection.|Granisetron Hydrochloride||Injection||||||||240912|26237|granisetron
+268	"Guaifenesin.|Guaifenesin|||||||||C0018305|5032|5032|guaifenesin
+270	Haloperidol Tablets.|Haloperidol||Tablets|||||||C1246427|372377|5093|haloperidol
+271	Hemocoagulase Atrox for Injection.|Hemocoagulase||Injection||||||||281603|281603|hemocoagulase
+272	Hemocoagulase Atrox For Injection.|Hemocoagulase||Injection||||||||281603|281603|hemocoagulase
+273	Hemocoagulase For Injection.|Hemocoagulase||Injection||||||||281603|281603|hemocoagulase
+275	Heparin Sodium Cream.|Heparin Sodium||Cream|||||||C0037513|9877|5224|heparin
+276	Heparin Sodium Injection.|Heparin Sodium||Injection||||||||1361594|5224|heparin
+277	Homoharringtonine Injection.|Homoharringtonine||Injection||||||||1421191|27100|omacetaxine mepesuccinate
+280	Huang qi Pian.|Huang qi||||||||||1309814|1309814|astragalus propinquus root extract
+283	Human Fibrinogen.|Fibrinogen|||||||||C0016006|4385|4385|fibrinogen
+285	Human Prothrombin Complex.|Prothrombin Complex||||||||||1425540|1425540|prothrombin complex
+286	Human Tetanus Immunoglobulin.|Tetanus Immunoglobulin||||||||||91603|91603|tetanus immune globulin,human
+287	Hydrochlorothiazide Tablets.|Hydrochlorothiazide||Tablets|||||||C1244656|370635|5487|hydrochlorothiazide
+288	Hydrocortisone Acetate Tablets.|Hydrocortisone Acetate||Tablets|||||||C0063077|27197|27197|hydrocortisone acetate
+289	Hydrocortisone Butyrate Cream.|Hydrocortisone Butyrate||Cream|||||||C4722794|2049935|103468|hydrocortisone butyrate
+290	Hydrocortisone Sodium Succinate For Injection.|Hydrocortisone Sodium Succinate||Injection|||||||null|2181724|235483|hydrocortisone sod succinate
+291	Hydrogen Peroxide Solution.|Hydrogen Peroxide||Solution||||||||1143458|5499|hydrogen peroxide
+292	Hydrotalcite Tablets.|Hydrotalcite||Tablets|||||||C1246480|372430|27221|hydrotalcite
+293	Hydroxycarbamide Tablets.|Hydroxycarbamide||Tablets||||||||5552|5552|hydroxycarbamide
+294	Hydroxychloroquine Sulfate Tables.|Hydroxychloroquine Sulfate|||||||||C0596007|153972|153972|hydroxychloroquine sulfate
+295	Hydroxyethyl Starch 200/0.5 and Sodium Chloride Injection.|Hydroxyethyl Starch 200/0.5||||||||||2099686|10379|testosterone
+295	Hydroxyethyl Starch 200/0.5 and Sodium Chloride Injection.|Sodium Chloride||Injection|||||||null|1807545|9863|sodium chloride
+296	Ibuprofen Suspension.|Ibuprofen||Suspension|||||||C1244693|370672|5640|ibuprofen
+297	Idarubicin Hydrochloride for Injection.|Idarubicin Hydrochloride||Injection|||||||C0977722|996152|82124|idarubicin hydrochloride
+298	Ifosfamide for Injection.|Ifosfamide||Injection|||||||null|1791587|5657|ifosfamide
+299	Imipenem and Cilastatin Sodium for Injection.|Sodium||Injection||||||||1159317|9863|sodium chloride
+299	Imipenem and Cilastatin Sodium for Injection.|Imipenem and Cilastatin|||||||||C0071972|34482|34482|imipenem and cilastatin
+300	Indocyanine Green for Injection.|Indocyanine Green||Injection||||||||1437630|5775|indocyanine green
+301	Indometacin Enteric-coated Tablets.|Indometacin||Tablets||||||||5781|5781|indometacin
+302	Indometacin Suppositories.|Indometacin||||||||||5781|5781|indometacin
+303	Infliximab for Injection.|Infliximab||Injection|||||||C4018809|1655941|191831|infliximab
+304	Insulin Aspart Injection.|Insulin Aspart||Injection|||||||C0123677|51428|51428|insulin aspart
+305	Insulin Glargine Injection.|Insulin Glargine||Injection|||||||C1253225|378864|274783|insulin glargine, human recombin. analog
+308	Iopromide Injection.|Iopromide||Injection||||||||969601|27781|iopromide
+309	Ioversol Injection.|Ioversol||Injection|||||||C1591109|849888|27792|ioversol
+310	Ipratropium Bromide Solution for Inhalation.|Ipratropium Bromide||Solution|||Inhalation||||null|1133716|203212|ipratropium bromide
+311	Irinotecan Hydrochloride Injection.|Irinotecan Hydrochloride||Injection|||||||C0594375|153329|153329|irinotecan hcl
+312	Iron Dextran Oral Solution.|Iron Dextran||Oral Solution|||||||null|702249|24947|ferrous sulfate
+314	Isoniazid Injection.|Isoniazid||Injection|||||||C3216265|1161933|6038|isoniazid
+315	Isoniazid Tablets.|Isoniazid||Tablets|||||||C1244742|370716|6038|isoniazid
+316	Isophane Protamine Biosynthetic Human Insulin Injection.|Human Insulin||Injection||||||||1122952|253182|insulin human
+316	Isophane Protamine Biosynthetic Human Insulin Injection.|Protamine|||||||||C0033603|8826|8826|protamine
+317	Isoprenaline Hydrochloride Injection.|Isoprenaline Hydrochloride||Injection||||||||82030|82030|isoproterenol hydrochloride
+318	Isosorbide Dinitrate Tablets.|Isosorbide Dinitrate||Tablets|||||||C1253094|378739|6058|isosorbide dinitrate
+325	Ketamine Hydrochloride Injection.|Ketamine Hydrochloride||Injection||||||||238082|6130|ketamine
+326	Ketotifen Fumarate Tablets.|Ketotifen Fumarate||Tablets|||||||C0043443|11404|11404|ketotifen fumarate
+328	Lactobacillus LB sachets.|Lactobacillus|||||||||C0022938|6204|6204|lactobacillus
+329	Lactulose Oral Solution.|Lactulose||Oral Solution|||||||C1252332|378092|6218|lactulose
+330	Lamotrigine Tablets.|Lamotrigine||Tablets|||||||C1246625|372567|28439|lamotrigine
+331	L-Asparaginase.|L-Asparaginase||||||||||1156|1156|asparaginase
+332	Latamoxef Sodium for Injection.|Sodium||Injection||||||||1159317|9863|sodium chloride
+332	Latamoxef Sodium for Injection.|Latamoxef||||||||||7069|7069|latamoxef
+333	Leflunomide Tablets.|Leflunomide||Tablets|||||||C1246628|372570|27169|leflunomide
+334	Leucogen Tablets.|Leucogen||Tablets||||||||||
+335	Levamisole Hydrochloride Tablets.|Levamisole Hydrochloride||Tablets|||||||C4719895|2054467|227227|levamisole hcl
+336	Levetiracetam Tablets.|Levetiracetam||Tablets|||||||C1248704|374617|114477|levetiracetam
+337	Levocarnitine Injection.|Levocarnitine||Injection|||||||null|1791370|42955|levocarnitine
+338	Levocarnitine Oral Solution.|Levocarnitine||Oral Solution|||||||C1246642|372583|42955|levocarnitine
+339	Levofloxacin and Sodium Chloride Injection.|Levofloxacin|||||||||C0282386|82122|82122|levofloxacin
+339	Levofloxacin and Sodium Chloride Injection.|Sodium Chloride||Injection|||||||null|1807545|9863|sodium chloride
+340	Levofloxacin Eye Drops.|Eye Drops||||||||||346237|346237|eye drops
+340	Levofloxacin Eye Drops.|Levofloxacin|||||||||C0282386|82122|82122|levofloxacin
+341	Levofloxacin Hydrochloride Ear Drops.|Ear Drops||||||||||216835|11002|urea
+341	Levofloxacin Hydrochloride Ear Drops.|Hydrochloride||||||||||1298842|1298842|hydrochloride
+341	Levofloxacin Hydrochloride Ear Drops.|Levofloxacin|||||||||C0282386|82122|82122|levofloxacin
+342	Levothyroxine Sodium Tablets.|Levothyroxine Sodium||Tablets|||||||C4719933|2054506|40144|l-thyroxine
+343	L-Glutamine and Sodium Gualenate Granules.|L-Glutamine|||||||||C0017797|4885|4885|l-glutamine
+343	L-Glutamine and Sodium Gualenate Granules.|Sodium Gualenate||Granules||||||||247613|9853|sodium
+344	Lidocaine Aerosol.|Lidocaine|||||||||C0023660|6387|6387|lidocaine (obsolete)
+345	Lidocaine Hydrochloride Injection.|Lidocaine Hydrochloride||Injection||||||||1122287|142440|lidocaine hydrochloride
+346	Light Liquid Paraffin.|Liquid Paraffin||||||||||6972|6972|mineral oil
+347	Linezolid Injection.|Linezolid||Injection|||||||C4019425|1662277|190376|linezolid
+348	Linezolid Tablets .|Linezolid||Tablets|||||||C1248713|374626|190376|linezolid
+350	"Live Combined Bifidobacterium.|Bifidobacterium|||||||||C0005380|813381|813381|bifidobacterium
+352	Long Chain Fat Emulsion Injection (OO).|Fat Emulsion||Injection||||||||4290|91211|fat emulsion
+353	Loratadine Syrup.|Loratadine||Syrup|||||||C1873556|692783|28889|loratadine, micronized
+354	Loratadine Tablets.|Loratadine||Tablets|||||||C1246702|372643|28889|loratadine, micronized
+355	Low-molecular-weight Heparin Calcium Injection.|Calcium||Injection||||||||1122564|1895|calcium
+355	Low-molecular-weight Heparin Calcium Injection.|Low-molecular-weight Heparin|||||||||C0019139|5227|5227|low molecular weight heparin,var (obsolete)
+357	Lyophilizing Thrombin Powder.|Thrombin||Powder||||||||1122277|10528|thrombin
+358	Lysine Acetylsalicylate for Injection.|Lysine Acetylsalicylate||Injection|||||||C0024337|6536|6536|l-lysine
+359	Magnesium Sulfate Powder.|Magnesium Sulfate Powder||||||||||102220|102220|magnesium sulfate powder
+360	Mebendazole Tablets.|Mebendazole||Tablets|||||||C1246781|372722|6672|mebendazole
+361	Mecobalamin Injection.|Mecobalamin||Injection|||||||C3219350|1165092|29421|methylcobalamin
+362	Mecobalamin Tablets.|Mecobalamin||Tablets|||||||C3249593|1233037|29421|methylcobalamin
+363	Medium and Long Chain Fat Emulsion Injection.|Fat Emulsion||Injection||||||||4290|91211|fat emulsion
+364	Medium and Long Chain Fat Emulsion Injection(C6-24).|Fat Emulsion||Injection||||||||4290|91211|fat emulsion
+365	Mercaptopurine Tablets.|Mercaptopurine||Tablets|||||||C1246842|372782|103|mercaptopurine
+366	Meropenem for Injection.|Meropenem||Injection|||||||C4060432|1722933|29561|meropenem
+367	Mesna Injection.|Mesna||Injection|||||||C1248609|374524|44|mesna
+368	Metamizole Sodium Injection.|Metamizole Sodium||Injection||||||||3523|3523|metamizole
+369	Metformin Hydrochloride Tablets.|Metformin Hydrochloride||Tablets|||||||C4720071|2054650|235743|
+370	Methotrexate for Injection.|Methotrexate||Injection|||||||C4034144|1655955|6851|methotrexate
+371	Methotrexate Injection.|Methotrexate||Injection|||||||C4034144|1655955|6851|methotrexate
+372	Methotrexate Tablets.|Methotrexate||Tablets|||||||C1246896|372836|6851|methotrexate
+373	Methylcobalamin Dispersible Tablets.|Methylcobalamin||Tablets|||||||C0065844|29421|29421|methylcobalamin
+374	Methylprednisolone Sodium Succinate for Injection.|Methylprednisolone Sodium Succinate||Injection|||||||null|2181740|203189|methylprednisolone sodium succinate
+375	Methylprednisolone Tablets.|Methylprednisolone||Tablets|||||||C1246929|372868|6902|methylprednisolone
+376	Methylthioninium Chloride Injection.|Methylthioninium Chloride||Injection||||||||6878|6878|methylene blue
+378	Metoclopramide Dihydrochloride Injection.|Metoclopramide Dihydrochloride||Injection|||||||C0887127|267035|267035|metoclopramide di-hcl
+379	Metoclopramide Tablets.|Metoclopramide||Tablets|||||||C1246947|372886|6915|metoclopramide
+380	Metoprolol Tartrate Tablets.|Metoprolol Tartrate||Tablets|||||||C4719813|2054380|203191|metoprolol tartrate
+381	Metronidazole Disodium Phosphate for Injection.|Metronidazole||Injection|||||||C4301175|1863330|6922|metronidazole
+382	Metronidazole Tablets.|Metronidazole||Tablets|||||||C1246958|372897|6922|metronidazole
+383	Midazolam Injection.|Midazolam||Injection|||||||C4051556|1666797|6960|midazolam
+384	Milrinone Injection.|Milrinone Injection|||||||||null|1791839|52769|milrinone
+385	Milrinone Lactate Injection.|Milrinone Lactate||Injection|||||||C1163169|347930|52769|milrinone
+386	Mitoxantrone Hydrochloride For Injection.|Mitoxantrone Hydrochloride||Injection|||||||C1513359|203129|203129|mitoxantrone hcl
+388	Mometasone Furoate Nasal Spray.|Nasal Spray||||||||||126542|126542|nasal spray
+388	Mometasone Furoate Nasal Spray.|Mometasone Furoate|||||||||C0066700|30145|30145|mometasone furoate
+389	Monosialotetrahexosylganglioside Sodium for Injection.|Sodium||Injection||||||||1159317|9863|sodium chloride
+390	Monosialotetrahexosylganglioside Sodium Injection.|Sodium||Injection||||||||1159317|9863|sodium chloride
+391	Montelukast Sodium Chewable Tablets.|Montelukast Sodium||Chewable|||||||C4719935|2054508|115713|montelukast sodium
+392	Montmorillonite Powder.|Montmorillonite||Powder|||||||C0205679|1425919|1425919|montmorillonite
+393	Morphine Hydrachloride Injection.|Morphine||Injection|||||||C4074713|1728776|7052|morphine
+394	Mouse Nerve Growth Factor for Injection.|Nerve Growth Factor||Injection||||||||7327|7327|nerve growth factor
+395	Mucopolysaccharide Polysulfate Cream.|Mucopolysaccharide Polysulfate||Cream|||||||C1252148|377912|30320|mucopolysaccharide polysulfate
+397	Multi-trace Elements Injection(Ⅱ).|trace Elements||Injection||||||||10682|10682|trace elements
+398	Multivitamins Drops.|Multivitamins||Drops|||||||C0301532|89905|89905|multiple vitamins
+399	Mupirocin Ointment.|Mupirocin||Ointment|||||||C1247033|372972|42372|mupirocin
+401	Mycophenolate Mofetil Capsules.|Mycophenolate Mofetil||Capsules|||||||C1253443|379060|68149|mycophenolate mofetil
+402	Mycophenolate Mofetil Dispersible Tablets.|Mycophenolate Mofetil||Tablets|||||||C1248757|374667|68149|mycophenolate mofetil
+403	Nadroparin Calcium.|Nadroparin Calcium||||||||||67031|67031|nadroparin
+404	Nafcillin Sodium For Injection.|Nafcillin Sodium||Injection|||||||C0776212|239190|7233|nafcillin
+405	Nalbuphine Hydrochloride Injection.|Nalbuphine Hydrochloride||Injection|||||||C0978889|904440|7238|nalbuphine
+406	Naloxone Hydrochloride For Injection.|Naloxone Hydrochloride||Injection||||||||1191212|7242|naloxone
+407	Naloxone Hydrochloride Injection.|Naloxone Hydrochloride||Injection||||||||1191212|7242|naloxone
+408	Neostigmine Methylsulfate Injection.|Neostigmine Methylsulfate||Injection||||||||311935|7315|neostigmine
+409	Nifedipine Tablets.|Nifedipine||Tablets|||||||C1247131|373069|7417|nifedipine
+410	Nikethamide Injection.|Nikethamide||Injection|||||||C1247142|373080|7424|nikethamide
+411	Nimodipine Injection.|Nimodipine||Injection|||||||C3213624|1159233|7426|nimodipine
+412	Nimodipine Tablets.|Nimodipine||Tablets|||||||C1247151|373089|7426|nimodipine
+413	Nitrazepam Tablets.|Nitrazepam||Tablets|||||||C1247159|373097|7440|nitrazepam
+414	Nitrofuracilin Zinc Oxide Liniment.|Zinc Oxide||Liniment|||||||C0043491|11423|11423|zinc oxide
+415	Nitrofurantoin Enteric-coated Tablets.|Nitrofurantoin||Tablets|||||||C1247163|373101|7454|nitrofurantoin
+416	Nitroglycerin Injection.|Nitroglycerin||Injection|||||||C4307250|1868493|4917|glyceryl trinitrate
+417	Norepinephrine Bitartrate Injection.|Norepinephrine Bitartrate||Injection|||||||C0028333|7508|7508|norepinephrine bitartrate
+418	Norvancomycin Hydrochloride for Injection.|Hydrochloride||Injection||||||||1298842|1298842|hydrochloride
+421	Ofloxacin Eye Ointment.|Ofloxacin||Eye Ointment|||||||C0979107|312075|7623|ofloxacin
+422	Ofloxacin Gel.|Ofloxacin||Gel|||||||C0028902|7623|7623|ofloxacin
+423	Omeprazole Enteric-Coated Capsules.|Omeprazole||Capsules|||||||C1252489|378236|7646|omeprazole
+424	Omeprazole Magnesium Enteric-coated Tablets.|Omeprazole Magnesium||Tablets|||||||C0771765|236486|236486|omeprazole magnesium
+425	Omeprazole Sodium For Injection.|Omeprazole Sodium||Injection||||||||236087|236087|omeprazole sodium
+426	Ondansetron Hydrochloride Injection.|Ondansetron Hydrochloride||Injection|||||||C0700478|203148|26225|ondansetron
+427	Ondansetron Hydrochloride Tablets.|Ondansetron Hydrochloride||Tablets|||||||C0689845|198052|26225|ondansetron
+428	Oral Chloral Hydrate.|Oral Chloral Hydrate||||||||||387825|387825|oral chloral hydrate
+430	Oral Rehydration Salts Powder(I).|Oral Rehydration Salts||Powder||||||||107057|107057|oral rehydration salts
+431	Oral Rehydration Salts Powder(Ⅲ).|Oral Rehydration Salts||Powder||||||||107057|107057|oral rehydration salts
+432	Ornidazole for Injection.|Ornidazole||Injection|||||||C3215397|1161043|7701|ornidazole
+433	Oseltamivir  Phosphate Capsules.|Oseltamivir  Phosphate||Capsules|||||||C0979158|312122|260101|oseltamivir
+434	Oseltamivir Phosphate Granules.|Oseltamivir Phosphate||Granules|||||||C0872908|259275|259275|oseltamivir phosphate
+435	Oxacillin Sodium for Iniection.|Oxacillin Sodium|||||||||C0037536|9898|9898|oxacillin sodium
+437	Oxcarbazepine Tablets.|Oxcarbazepine||Tablets|||||||C1247238|373175|32624|oxcarbazepine
+438	Oxiracetam Capsules.|Oxiracetam||Capsules|||||||C1378563|447002|32645|oxiracetam
+439	Oxiracetam Injection.|Oxiracetam||Injection|||||||C0069772|32645|32645|oxiracetam
+440	Oxybuprocaine Hydrochloride Gel.|Oxybuprocaine Hydrochloride||Gel||||||||235398|235398|benoxinate hcl
+441	Oxymetazoline Hydrochloride Spray.|Oxymetazoline Hydrochloride||Spray|||||||C0357797|106101|106101|oxymetazoline hydrochloride
+442	Paediatric Ibuprofen Suppositories.|Ibuprofen|||||||||C0020740|5640|5640|ibuprofen
+443	Palonosetron hydrochloride Injection.|Palonosetron hydrochloride||Injection|||||||C1310734|397405|397405|palonosetron hcl
+444	Panipenem and Betamipron for Injection.|Panipenem and Betamipron||Injection|||||||C0169614|61081|61081|panipenem and betamipron
+445	"Paracetamol.|Paracetamol|||||||||C0000970|161|161|paracetamol
+446	Paracetamol Oral Solution.|Paracetamol||Oral Solution||||||||104906|161|paracetamol
+447	Paracetamol Suspension Drop.|Paracetamol||Suspension|||||||C0000970|161|161|paracetamol
+449	Pediatric Compound Amino Acid Injection.|Amino Acid||Injection||||||||388639|658|amino acids
+450	Pediatric Compound Amino Acid Injection(19AA-1).|Amino Acid||Injection||||||||388639|658|amino acids
+451	Pediatric Compound Amino Acid Injection(19AA-I).|Amino Acid||Injection||||||||388639|658|amino acids
+453	Pegylated Recombinant Human Granulocyte Colony Stimulating Factor (PEG-rhG-CSF) for Injection.|CSF||Injection||||||||40209|40209|csf
+453	Pegylated Recombinant Human Granulocyte Colony Stimulating Factor (PEG-rhG-CSF) for Injection.|Recombinant Human Granulocyte Colony Stimulating Factor||||||||||388040|388040|recombinant human granulocyte colony stimulating factor
+454	Penicillamine Tablets.|Penicillamine||Tablets|||||||C1247322|373258|7975|penicillamine
+455	Pentazocine Injection.|Pentazocine||Injection|||||||C4283757|1811472|8001|pentazocine
+456	Pepsin Oral Solution.|Pepsin||Oral Solution|||||||C1247354|757345|8016|pepsin
+457	Peramivir Sodium Chloride Injection.|Sodium Chloride||Injection|||||||null|1807545|9863|sodium chloride
+457	Peramivir Sodium Chloride Injection.|Peramivir|||||||||C1675326|619693|619693|peramivir
+458	Peritoneal Dialysis Solution.|Peritoneal Dialysis Solution||||||||||103997|103997|peritoneal dialysis solution
+459	Peritoneal Dialysis Solution (Lactate G1.5%).|Lactate|||||||||C0376261|114202|114202|lactate
+459	Peritoneal Dialysis Solution (Lactate G1.5%).|Peritoneal Dialysis Solution||||||||||103997|103997|peritoneal dialysis solution
+460	Peritoneal Dialysis Solution (Lactate G2.5%).|Lactate|||||||||C0376261|114202|114202|lactate
+460	Peritoneal Dialysis Solution (Lactate G2.5%).|Peritoneal Dialysis Solution||||||||||103997|103997|peritoneal dialysis solution
+461	Pethidine Hydrochloride Injection.|Pethidine Hydrochloride||Injection||||||||861447|6754|pethidine
+462	Phcnylephrine Hydrochloride Injection.|Hydrochloride||Injection||||||||1298842|1298842|hydrochloride
+463	Phenobarbital Sodium for Injection.|Phenobarbital Sodium||Injection|||||||C0693707|199964|82077|phenobarbital sodium
+464	Phenobarbital Sodium Injection.|Phenobarbital Sodium||Injection|||||||C0693707|199964|82077|phenobarbital sodium
+465	Phenobarbital Tablets.|Phenobarbital||Tablets|||||||C1247391|373326|8134|phenobarbital
+466	Phenolphthalein Tablets.|Phenolphthalein||Tablets|||||||C1247398|373333|155122|phenolphthalein
+467	Phentolamine Mesylate for Injection.|Phentolamine Mesylate||Injection||||||||199791|8153|phentolamine
+468	Phentolamine Mesylate Injection.|Phentolamine Mesylate||Injection||||||||199791|8153|phentolamine
+469	Pidotimod Oral Solution.|Pidotimod||Oral Solution|||||||C1382350|450774|40450|pidotimod
+470	Piperacillin Sodium And Sulbactam Sodium For Injection.|Sulbactam Sodium||Injection|||||||C0282355|82100|82100|sulbactam sodium
+470	Piperacillin Sodium And Sulbactam Sodium For Injection.|Piperacillin Sodium|||||||||C0700463|203134|203134|piperacillin sodium
+471	Piperacillin Sodium and Tazobactam Sodium for Injection.|Piperacillin Sodium|||||||||C0700463|203134|203134|piperacillin sodium
+471	Piperacillin Sodium and Tazobactam Sodium for Injection.|Tazobactam Sodium||Injection|||||||C0724700|221167|221167|tazobactam (as sodium)
+472	Piperacillin Sodium and Tazobactam Sodium Injection.|Piperacillin Sodium|||||||||C0700463|203134|203134|piperacillin sodium
+472	Piperacillin Sodium and Tazobactam Sodium Injection.|Tazobactam Sodium||Injection|||||||C0724700|221167|221167|tazobactam (as sodium)
+473	Piperazine Ferulate Tablets.|Ferulate||Tablets||||||||1368648|1368648|ferulate
+473	Piperazine Ferulate Tablets.|Piperazine|||||||||C0031957|8340|8340|piperazine
+474	Pirarubicin Hydrochloride For Injection.|Pirarubicin Hydrochloride||Injection|||||||C0071126|33764|33764|pirarubicin
+476	Polymyxin B Sulfate for injection.|Polymyxin B Sulfate||injection|||||||C0001714|388|388|polymyxin b sulfate
+477	Poractant Alfa Injection.|Poractant Alfa||Injection|||||||C1249333|375227|236381|poractant alfa
+478	Posaconazole Oral Suspension.|Posaconazole||Oral Suspension|||||||C1812974|665018|282446|posaconazole
+479	Posterior Pituitary Injection.|Posterior Pituitary||Injection|||||||C0032017|8366|8366|pituitary,posterior
+480	Potassium Aspartate and Magnesium Aspartate Injection.|Potassium Aspartate|||||||||C0032823|8589|8589|potassium aspartate
+480	Potassium Aspartate and Magnesium Aspartate Injection.|Magnesium Aspartate||Injection|||||||C3211381|1156954|142131|magnesium aspartate
+481	Potassium Chloride Sustained-release Tablets.|Potassium Chloride||Tablets|||||||C1247591|373523|8591|potassium chloride
+482	Potassium Chloride Tablets.|Potassium Chloride||Tablets|||||||C1247591|373523|8591|potassium chloride
+483	Potassium Citrate.|Potassium Citrate|||||||||C0137996|54993|54993|potassium citrate (obsolete)
+484	Potassium Permanganate.|Potassium Permanganate|||||||||C0032838|8604|8604|potassium permanganate
+485	Potassium Permanganate Tablets for External Use.|Potassium Permanganate||Tablets|||External||||C1382620|451036|8604|potassium permanganate
+486	Povidone lodine Solution.|lodine||Solution|||||||C0700001|202998|24605|etodolac
+486	Povidone lodine Solution.|Povidone|||||||||C0032856|8610|8610|povidone
+487	Pralidoxime Chloride Injection.|Pralidoxime Chloride||Injection|||||||C0979714|312576|34345|pralidoxime
+488	Pralidoxime Iodide Injection.|Pralidoxime Iodide||Injection|||||||C0138210|55052|34345|pralidoxime
+489	Pranopulin (Pranoprofen Eye Drops).|Eye Drops||||||||||346237|346237|eye drops
+489	Pranopulin (Pranoprofen Eye Drops).|Pranoprofen||||||||||35028|35028|pranoprofen
+490	Prednisone Acetate Tablets.|Prednisone Acetate||Tablets||||||||235485|235485|prednisone acetate
+491	Procaterol Hydrochloride Oral Solution.|Procaterol Hydrochloride||Oral Solution|||||||C1382551|757311|34530|procaterol
+492	Procaterol Hydrochloride Tablets.|Procaterol Hydrochloride||Tablets|||||||C0162685|58918|58918|procaterol hcl
+493	Progesterone Injection.|Progesterone||Injection|||||||C0544374|1162288|8727|progesterone
+494	Promethazine Hydrochloride Injection.|Promethazine Hydrochloride||Injection||||||||992460|8745|promethazine
+495	Promethazine Hydrochloride Tablets.|Promethazine Hydrochloride||Tablets|||||||C4720151|2054733|142445|promethazine hydrochloride
+496	Propafenone Hydrochloride Injection.|Propafenone Hydrochloride||Injection|||||||C1564269|203135|203135|propafenone hcl
+497	Propafenone Hydrochloride Tablets.|Propafenone Hydrochloride||Tablets|||||||C4720152|2054734|203135|propafenone hcl
+498	Proparacaine Hydrochloride Eye Drops.|Eye Drops||||||||||346237|346237|eye drops
+498	Proparacaine Hydrochloride Eye Drops.|Proparacaine Hydrochloride|||||||||C0740235|227778|227778|proparacaine hcl
+499	Propofol Injectable Emulsion.|Propofol||Injectable|||||||null|1808216|8782|propofol
+500	Propranolol Hydrochloride Tablets.|Propranolol Hydrochloride||Tablets|||||||C4720154|2054736|82084|propranolol hydrochloride
+501	Protamine Sulfate Injection.|Protamine Sulfate||Injection||||||||392336|8825|protamine sulfate
+502	Pseudoephedrine Hydrochloride，Chlorpheniramine Maleate and Dextromethorphan Hydrobromide Solution.|Maleate|||||||||C0970337|1426331|1426331|maleate
+502	Pseudoephedrine Hydrochloride，Chlorpheniramine Maleate and Dextromethorphan Hydrobromide Solution.|Pseudoephedrine|||||||||C0033798|8896|8896|pseudoephedrine
+502	Pseudoephedrine Hydrochloride，Chlorpheniramine Maleate and Dextromethorphan Hydrobromide Solution.|Dextromethorphan Hydrobromide||Solution|||||||C4730925|2056597|102490|dextromethorphan hbr
+503	Pseudoephedrine Hydrochloride Drops.|Pseudoephedrine Hydrochloride||Drops|||||||C0304430|91168|91168|pseudoephedrine hydrochloride
+505	Purified Protein Derivative of BCG.|BCG||||||||||42579|42579|bcg
+506	Pyrazinamide Tablets.|Pyrazinamide||Tablets|||||||C1247769|373701|8987|pyrazinamide
+507	Pyridostigmine Bromide Tablets.|Pyridostigmine Bromide||Tablets|||||||C4719787|2054352|9001|pyridostigmine bromide
+508	Qingkailing Keli.|Qingkailing||||||||||||
+511	Rabbit Anti-Human Thymocyte Immunoglobulin.|Thymocyte Immunoglobulin||||||||||1427178|1427178|thymocyte immunoglobulin
+511	Rabbit Anti-Human Thymocyte Immunoglobulin.|Rabbit|||||||||C2093603|813859|813859|rabbit
+513	Raceanisodamine Hydrochloride Injection.|Hydrochloride||Injection||||||||1298842|1298842|hydrochloride
+514	Racecadotril Granules.|Racecadotril||Granules|||||||C0050461|16738|16738|racecadotril
+515	Ranitidine Hydrochloride Injection.|Ranitidine Hydrochloride||Injection|||||||C0979947|312772|9143|ranitidine
+518	Recombinant Human Epidermal Growth Factor Gel.|Human Epidermal Growth Factor||Gel||||||||1427157|1427157|epidermal growth factor, human recombinant
+519	Recombinant Human Erythropoietin Injection(CHO).|Erythropoietin||Injection||||||||4059|4059|erythropoietin
+520	Recombinant Human Granulocyte Colony-stimulating Factor Injection.|Recombinant Human Granulocyte Colony-stimulating Factor||Injection||||||||388040|388040|recombinant human granulocyte colony-stimulating factor
+521	Recombinant Human Growth Hormone for Injection.|Recombinant Human Growth Hormone||Injection||||||||1029436|1029436|recombinant human growth hormone
+522	Recombinant Human Insulin Injection.|Human Insulin||Injection||||||||1122952|253182|insulin human
+523	Recombinant Human Insulin Lispro Injection.|Human Insulin Lispro||Injection|||||||C1253202|378841|86009|insulin lispro
+524	Recombinant Human Interferon α1b for Injection.|Interferon||Injection|||||||C4058516|1720955|5882|interferon gamma-1b
+525	Recombinant Human Interferon α2B eye drop.|eye drop|||||||||C0015399|4230|4230|eye drop
+525	Recombinant Human Interferon α2B eye drop.|Interferon|||||||||C0021747|5886|5886|interferon
+526	Recombinant Human Interleukin-11 for Injection.|Recombinant Human Interleukin-11||Injection||||||||139994|139994|oprelvekin
+529	Reduced Glutathione Sodium for Injection.|Sodium||Injection||||||||1159317|9863|sodium chloride
+529	Reduced Glutathione Sodium for Injection.|Reduced Glutathione|||||||||C0034917|9225|9225|reduced glutathione
+531	Remifentanil Hydrochloride for Injection.|Remifentanil Hydrochloride||Injection|||||||C0771827|236540|236540|remifentanil hcl
+532	Ribavirin Aerosol.|Ribavirin|||||||||C0035525|9344|9344|ribavirin
+533	Ribavirin for Injection.|Ribavirin||Injection|||||||C3219699|1165447|9344|ribavirin
+534	Ribavirin Granules.|Ribavirin||Granules|||||||C0035525|9344|9344|ribavirin
+535	Ribavirin  Injection.|Ribavirin||Injection|||||||C3219699|1165447|9344|ribavirin
+536	Riboflavin sodium Phosphate for Injection.|sodium Phosphate||Injection|||||||C0074757|36709|36709|sodium phosphate
+536	Riboflavin sodium Phosphate for Injection.|Riboflavin|||||||||C0035527|9346|9346|riboflavin (vitamin b2)
+537	Rifampicin Capsules.|Rifampicin||Capsules||||||||198201|9384|rifampicin
+538	Rifampicin for Eye Use.|Rifampicin|||||Eye|||||9384|9384|rifampicin
+539	Rituximab Injection.|Rituximab||Injection|||||||C4018784|1657861|121191|rituximab
+540	Rocuronium Bromide Injection.|Rocuronium Bromide||Injection||||||||1123290|32521|rocuronium bromide
+542	Salbutamol Sulfate Nebules Inhalation Solution.|Salbutamol Sulfate||Inhalation Solution|||||||C1168688|351136|435|salbutamol
+543	Salbutamol Sulphate Aerosol.|Salbutamol Sulphate|||||||||C0001927|435|435|salbutamol
+544	Salmeterol Xinafoateand Fluticasone Propionate Powder for Inhalation.|Fluticasone Propionate||Powder|||Inhalation||||null|1359560|41126|fluticasone
+544	Salmeterol Xinafoateand Fluticasone Propionate Powder for Inhalation.|Salmeterol|||||||||C0073992|36117|36117|salmeterol
+545	Scopolamine Hydrobromide Injection.|Scopolamine Hydrobromide||Injection|||||||C0036444|9603|9603|scopolamine hydrobromide
+546	Sertraline Hydrochloride Tablets.|Sertraline Hydrochloride||Tablets|||||||C4719798|2054364|155137|sertraline hcl
+549	Sildenafil Citrate Tablets.|Sildenafil Citrate||Tablets||||||||314229|136411|sildenafil
+550	Simethicone Emulsion.|Simethicone Emulsion|||||||||C0993233|317608|317608|simethicone emulsion
+552	Simvastatin Tablets.|Simvastatin||Tablets|||||||C1247958|373888|36567|simvastatin
+554	Sodium Bicarbonate Tablets.|Sodium Bicarbonate||Tablets|||||||C1247970|373899|36676|sodium bicarbonate (obsolete)
+555	Sodium Chloride Physiological Solution.|Sodium Chloride||Solution||||||||789982|9863|sodium chloride
+556	Sodium Citrate.|Sodium Citrate|||||||||C0142825|56466|56466|sodium citrate (obsolete)
+557	Sodium Cromoglicate Eye Drops.|Eye Drops||||||||||346237|346237|eye drops
+557	Sodium Cromoglicate Eye Drops.|Sodium Cromoglicate||||||||||3538|3538|cromolyn sodium
+558	Sodium Dihydrogen Phosphate.|Sodium Dihydrogen Phosphate||||||||||235496|235496|sodium acid phosphate (obsolete)
+559	Sodium Dimercaptopropane Sulfonate Injection.|Sodium||Injection||||||||1159317|9863|sodium chloride
+560	Sodium Fusidate for Injection.|Fusidate||Injection|||||||C3217632|1163318|113608|fusidate
+560	Sodium Fusidate for Injection.|Sodium|||||||||C0037473|9853|9853|sodium
+561	Sodium Glycerophosphate Injection.|Sodium Glycerophosphate||Injection|||||||C0377349|114507|114507|sodium glycerophosphate
+562	Sodium Hyaluronate Eye Drops.|Eye Drops||||||||||346237|346237|eye drops
+562	Sodium Hyaluronate Eye Drops.|Sodium Hyaluronate|||||||||C0087000|42892|42892|sodium hyaluronate
+563	Sodium Lactate Ringer's Injection.|Sodium Lactate||Injection|||||||C0142874|56489|56489|sodium lactate (obsolete)
+564	Sodium Nitroprusside for Injection.|Sodium Nitroprusside||Injection|||||||C0778643|240793|7476|nitroprusside
+565	Sodium Valproate for Injection.|Sodium Valproate||Injection|||||||C1269990|387068|9919|valproate sodium
+566	Sodium Valproate Oral Solution.|Sodium Valproate||Oral Solution|||||||C2365831|808657|40254|valproate
+567	Sodium Valproate Tablets.|Sodium Valproate||Tablets|||||||C0037567|9919|9919|valproate sodium
+568	Somatostatin For Injection.|Somatostatin||Injection|||||||C0037659|9939|9939|somatostatin
+569	Sotalol Hydrochloride Tablets.|Sotalol Hydrochloride||Tablets|||||||C4720225|2054810|7008|sotalol hcl
+570	Spironolactone Tablets.|Spironolactone||Tablets|||||||C1248018|373946|9997|spironolactone
+572	Sterile Water Injection.|Sterile Water||Injection|||||||C1163679|540930|540930|water for injection, bacteriostatic
+574	Succinylated Gelatin Injection.|Succinylated Gelatin||Injection|||||||C3214640|1160268|56790|succinylated gelatin
+575	Sufentanil Citrate Injection.|Sufentanil Citrate||Injection|||||||C0980386|313124|58964|sufentanil citrate
+576	Tacrolimus Capsules.|Tacrolimus||Capsules|||||||C1248088|374015|42316|tacrolimus
+577	Terbutaline Sulphate Solution for Nebulization.|Terbutaline Sulphate||Solution||||||||10369|10369|terbutaline sulfate
+578	Tetanus Antitoxin Injection.|Tetanus Antitoxin||Injection|||||||C0039615|10385|10385|tetanus antitoxin
+579	Thymalfasin for Injection.|Thymalfasin||Injection|||||||C3216408|1162077|38221|thymalfasin
+582	Tiapride Hydrochloride Tablets.|Hydrochloride||Tablets||||||||1298842|1298842|hydrochloride
+582	Tiapride Hydrochloride Tablets.|Tiapride|||||||||C0040180|10588|10588|tiapride
+583	Tigecycline for Injection.|Tigecycline||Injection|||||||C4050108|1724329|384455|tigecycline
+584	Tioguanine Tablets.|Tioguanine||Tablets|||||||C0690519|198269|10485|tioguanine
+585	Tobramycin and Dexamethasone Ophthalmic Ointment.|Tobramycin|||||||||C0040341|10627|10627|tobramycin
+585	Tobramycin and Dexamethasone Ophthalmic Ointment.|Dexamethasone Ophthalmic||Ointment|||||||C0351892|103217|3264|dexamethasone
+586	Tobramycin Dexamethasone Eye Drops.|Eye Drops||||||||||346237|346237|eye drops
+586	Tobramycin Dexamethasone Eye Drops.|Dexamethasone|||||||||C0011777|3264|3264|dexamethasone
+586	Tobramycin Dexamethasone Eye Drops.|Tobramycin|||||||||C0040341|10627|10627|tobramycin
+587	Tobramycin Eye Drops.|Eye Drops||||||||||346237|346237|eye drops
+587	Tobramycin Eye Drops.|Tobramycin|||||||||C0040341|10627|10627|tobramycin
+588	Tobramycin Sulfate Injection.|Tobramycin Sulfate||Injection|||||||C0027519|7276|7276|tobramycin sulfate
+589	Topiramate Tablets.|Topiramate||Tablets|||||||C1248240|374166|38404|topiramate
+590	Tramadol Hydrochloride Injection.|Tramadol Hydrochloride||Injection||||||||849329|82110|tramadol hydrochloride
+591	Tranexamic Acid for Injection.|Tranexamic Acid||Injection|||||||null|1789851|10691|tranexamic acid
+592	Tranexamic Acid Injection.|Tranexamic Acid||Injection|||||||null|1789851|10691|tranexamic acid
+593	Tretinoin Tablets.|Tretinoin||Tablets|||||||C0040845|10753|10753|tretinoin
+594	Tropicamide Eye Drops.|Eye Drops||||||||||346237|346237|eye drops
+594	Tropicamide Eye Drops.|Tropicamide|||||||||C0041190|10869|10869|tropicamide
+595	Troxerutin and Cerebroprotein Hydrolysate Injection.|Troxerutin||Injection|||||||C0077410|38893|38893|troxerutin
+596	Tulobuterol Patch.|Tulobuterol||Patch|||||||C0077497|38967|38967|tulobuterol
+597	Ubenimex Capsules.|Ubenimex||Capsules|||||||C0053355|19106|19106|ubenimex
+598	Ubidecarenone Tablets.|Ubidecarenone||Tablets|||||||C0056077|21406|21406|ubidecarenone
+599	Ulinastatin for Injection.|Ulinastatin||Injection|||||||C0077906|39272|39272|ulinastatin
+600	Urokinase for Injection.|Urokinase||Injection|||||||C3214359|1159983|11055|urokinase
+601	Ursodeoxycholic Acid Capsules.|Ursodeoxycholic Acid||Capsules||||||||858747|62427|ursodeoxycholate
+602	Valacyclovir Hydrochloride Dispersible Tablets.|Valacyclovir Hydrochloride||Tablets|||||||C0771309|236081|236081|valacyclovir (as hydrochloride)
+603	Valsartan Capsules.|Valsartan||Capsules|||||||C1248357|374279|69749|valsartan
+604	Vancomycin Hydrochloride for Intra Venous.|Vancomycin Hydrochloride|||||||||C0205992|66955|66955|vancomycin (as hydrochloride)
+605	Vecuronium Bromide for Injection.|Vecuronium Bromide||Injection|||||||C0778320|859437|71535|vecuronium
+606	Vincristine Sulfate for Injection.|Vincristine Sulfate||Injection||||||||894893|11203|vincristine sulfate
+607	Vindesine Sulfate for Injection.|Vindesine Sulfate||Injection|||||||C0042683|11205|11205|vindesine sulfate
+608	Vitamin A and D Drops.|Vitamin A||Drops||||||||1029366|1029366|vitamin a
+609	Vitamin A Palmitate Eye Gel.|Vitamin A Palmitate||Eye Gel|||||||C0109490|35406|35406|vitamin a palmitate
+610	Vitamin B12 Injection.|Vitamin B12||Injection||||||||1036368|1036368|vitamin b12
+611	Vitamin B1 Injection.|Vitamin B1||Injection|||||||C0039840|10454|10454|thiamine (vitamin b1)
+612	Vitamin B2 Tablets.|Vitamin B2||Tablets|||||||C0035527|9346|9346|riboflavin (vitamin b2)
+613	Vitamin B6 Injection.|Vitamin B6||Injection|||||||C3215516|1161166|42954|vitamin b6
+614	Vitamin B6 Tablets.|Vitamin B6||Tablets|||||||C1249459|375348|42954|vitamin b6
+615	Vitamin B Tablets.|Vitamin B||Tablets||||||||105767|11251|vitamin b
+616	Vitamin C Effervescent Tablets.|Vitamin C||Tablets|||||||C0003968|1151|1151|ascorbic acid (vit c)
+617	Vitamin C Injection.|Vitamin C||Injection|||||||C0003968|1151|1151|ascorbic acid (vit c)
+618	Vitamin C Tablets.|Vitamin C||Tablets|||||||C0003968|1151|1151|ascorbic acid (vit c)
+619	Vitamin D3 Injection.|Vitamin D3||Injection|||||||C3265062|1244014|1244014|vitamin d3
+620	Vitamin D Drops(capsule).|Vitamin D||Drops|||||||C0042866|11253|11253|vitamin d
+621	Vitamin E Soft Capsules.|Vitamin E||Capsules|||||||C0704247|204674|11256|vitamin e (d-alpha tocopherol)
+622	Vitamin K1 Injection.|Vitamin K1||Injection|||||||C0031862|8308|8308|phytonadione (vitamin k1)
+623	Voriconazole for Injection.|Voriconazole||Injection|||||||C4060390|1727280|121243|voriconazole
+624	Voriconazole Tablets.|Voriconazole||Tablets|||||||C1253038|378691|121243|voriconazole
+625	Warfarin Sodium Tablets.|Warfarin Sodium||Tablets|||||||C4720019|2054596|114194|warfarin sodium
+626	Water-soluble Vitamin for Injection.|Water-soluble Vitamin||Injection||||||||78600|78600|water-soluble vitamin
+635	Zinc Gluconate Granules.|Zinc Gluconate||Granules||||||||600997|58300|zinc gluconate
+636	Zinc Lysine Sulfate Oral Solution.|Sulfate||Oral Solution|||||||C0475337|1426598|1426598|sulfate ion
+636	Zinc Lysine Sulfate Oral Solution.|Lysine|||||||||C0024337|6536|6536|l-lysine
+636	Zinc Lysine Sulfate Oral Solution.|Zinc|||||||||C0043481|11416|11416|zinc
+637	ω-3 Fish Oil Fat Emulsion Injection.|Fat Emulsion||Injection||||||||4290|91211|fat emulsion
+637	ω-3 Fish Oil Fat Emulsion Injection.|Fish Oil|||||||||C0016157|4419|4419|fish oil

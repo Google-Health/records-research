@@ -1,0 +1,34 @@
+{
+  "work-dir" : "/tmp/beds_bench",
+  "partitions" : {
+    "adult-neonate-paed" : [ "mimic-adult", "mimic-neonate", "picdb-paed" ],
+    "male-female" : [ "mimic-male", "mimic-female"],
+    "age-bands" : [ "mimic-lt50", "mimic-5060", "mimic-6070", "mimic-7080", "mimic-gt80" ]
+  },
+  "partition-slices" : {
+    "mimic-adult" : "DB == 'MIMIC' and AGE_IN_DAYS >= 15 * 365.25",
+    "picdb-paed" : "DB == 'PICDB'",
+    "mimic-neonate" : "DB == 'MIMIC' and AGE_IN_DAYS < 15 * 365.25",
+    "mimic-male" : "DB == 'MIMIC' and GENDER != 'F'",
+    "mimic-female" : "DB == 'MIMIC' and GENDER == 'F'",
+    "mimic-lt50" : "DB == 'MIMIC' and AGE_IN_DAYS > 15 * 365.25 and AGE_IN_DAYS <= 50 * 365.25",
+    "mimic-5060" : "DB == 'MIMIC' and AGE_IN_DAYS > 50 * 365.25 and AGE_IN_DAYS <= 60 * 365.25",
+    "mimic-6070" : "DB == 'MIMIC' and AGE_IN_DAYS > 60 * 365.25 and AGE_IN_DAYS <= 70 * 365.25",
+    "mimic-7080" : "DB == 'MIMIC' and AGE_IN_DAYS > 70 * 365.25 and AGE_IN_DAYS <= 80 * 365.25",
+    "mimic-gt80" : "DB == 'MIMIC' and AGE_IN_DAYS > 80 * 365.25"
+  },
+  "slice-desc" : {
+    "mimic-adult" : "Adult",
+    "mimic-neonate" : "Neonate",
+    "picdb-paed" : "Paediatric",
+    "mimic-male" : "Male",
+    "mimic-female" : "Female",
+    "mimic-lt50" : "Age 15-50yr",
+    "mimic-5060" : "Age 50-60yr",
+    "mimic-6070" : "Age 60-70yr",
+    "mimic-7080" : "Age 70-80yr",
+    "mimic-gt80" : "Age 80+yr"
+  },
+  "labels" : [ "HOSPITAL_EXPIRE_FLAG", "REMAINING_LOS_3", "REMAINING_LOS_7" ],
+  "models-fixedlen" : [ "LogReg", "GP", "RandomForest", "MondrianForest", "MLP", "BRNN", "SNGP" ]
+}
